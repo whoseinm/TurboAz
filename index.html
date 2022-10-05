@@ -63,67 +63,311 @@
 
         </div>
     </div>
+    <div id="Navbar">
+        <nav class="navbar navbar-default" style="background: #CA1016; border-radius: 0px;">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed no-border" style="border: 0px;" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="icon-bar" style="background: white;"></span>
+                        <span class="icon-bar" style="background: white;"></span>
+                        <span class="icon-bar" style="background: white;"></span>
+                    </button>
+                    <div class="h_brand">
+                        <a class="navbar-brand " href="#" style="color: white;">TURBO.AZ</a>
+                    </div>
 
-    <nav class="navbar navbar-default" style="background: #CA1016; border-radius: 0px;">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <div class="h_brand">
-                    <a class="navbar-brand " href="#" style="color: white;">TURBO.AZ</a>
                 </div>
 
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav hover">
+                        <li><a href="#" style="color: white;">Bütün elanlar</a></li>
+                        <li><a href="#" style="color: white;">Avtosalonlar</a></li>
+
+                        <li class="dropdown">
+
+                            <a href="#" class="dropdown-toggle dropdown_parts dropdown" data-toggle="dropdown"
+                                role="button" aria-haspopup="true" aria-expanded="false" style="color: white;">Ehtiyat
+                                hissələr və
+                                aksesuarlar</a>
+                            <ul class="dropdown-menu"
+                                style="min-height: 270px; background: white; box-shadow: 0 5px 10px 0 rgb(0 0 0 / 15%); margin-top: -10px; border-radius: 8px; font-size: 15px; line-height: 40px; width: 230px; padding-left: 2px;">
+                                <li><a href="index.html">Audio və video texnika</a>
+
+                                    <a href="index.html">Avtokosmetika və avtokimya</a>
+
+                                    <a href="index.html">Ehtiyat hissələr</a>
+
+                                    <a href="index.html">GPS naviqatorlar</a>
+
+                                    <a href="index.html">Qeydiyyat nişanları</a>
+
+                                    <a href="index.html">Siqnalizasiyalar</a>
+
+                                    <a href="index.html">Videoqeydiyyatçılar</a>
+
+                                    <a href="index.html">Şinlər, disklər və təkərlər</a>
+
+                                    <a href="index.html">Digər</a>
+                                </li>
+
+                            </ul>
+                            <button class="yeni_elan"><i class="fa-solid fa-circle-plus"></i> Yeni elan</button>
+
+
+                        </li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+    </div>
+
+    <section id="filters">
+        <div class="container-fluid filters_cont">
+            <div class="row">
+                <div class="container">
+                    <div class="filter_place" style="margin-top: -13px;">
+                        <div class="part_1_filters">
+                            <select name="cars" id="cars">
+                                <option value="city_select" disabled selected hidden>Marka</option>
+                                <option value="reset">Sıfırla</option>
+                                <option value="Abarth">Abarth</option>
+                                <option value="ACG Cars">ACG Cars</option>
+                                <option value="Acura">Acura</option>
+                                <option value="Alfa Romeo">Alfa Romeo</option>
+                                <option value="ARO">ARO</option>
+                                <option value="Ashok Leyland">Ashok Leyland</option>
+                                <option value="Aston Martin">Aston Martin</option>
+                                <option value="ATV">ATV</option>
+                                <option value="Audi">Audi</option>
+                                <option value="Avia">Avia</option>
+                                <option value="Baic">Baic</option>
+                                <option value="Bajaj">Bajaj</option>
+                                <option value="Bentley">Bentley</option>
+                                <option value="Bestune">Bestune</option>
+                                <option value="BMC">BMC</option>
+                                <option value="BMW">Bestune</option>
+                                <option value="Brilliance">Brilliance</option>
+                                <option value="Buick">Buick</option>
+                                <option value="BYD">BYD</option>
+                                <option value="C.Moto">C.Moto</option>
+                                <option value="Cadillac">Cadillac</option>
+                                <option value="Can-Am">Can-Am</option>
+                                <option value="Cevo">Cevo</option>
+                                <option value="CFMOTO">CFMOTO</option>
+                                <option value="Changan">Changan</option>
+                                <option value="Chery">Chery</option>
+                                <option value="Chevrolet">Chevrolet</option>
+                                <option value="Chrysler">Chrysler</option>
+                                <option value="Citroen">Citroen</option>
+                                <option value="Dacia">Dacia</option>
+                                <option value="Daewoo">Daewoo</option>
+                                <option value="DAF">DAF</option>
+                                <option value="Daihatsu">Daihatsu</option>
+                                <option value="Datsun">Datsun</option>
+                                <option value="Dayun">Dayun</option>
+                                <option value="Dnepr">Dnepr</option>
+                                <option value="Dodge">Dodge</option>
+                                <option value="DonFeng">DonFeng</option>
+                                <option value="Ducati">Ducati</option>
+                                <option value="FAW">FAW</option>
+                                <option value="Fiat">Fiat</option>
+                                <option value="Ford">Ford</option>
+                                <option value="Foton">Foton</option>
+                                <option value="GAC">GAC</option>
+                                <option value="GAZ">GAZ</option>
+                                <option value="Geely">Geely</option>
+                                <option value="Genesis">Genesis</option>
+                                <option value="Gonow">Gonow</option>
+                                <option value="Great Wall">Great Wall</option>
+                                <option value="Haiwa">Haiwa</option>
+                                <option value="Haojue">Haojue</option>
+                                <option value="Harley-Davidson">Harley-Davidson</option>
+                                <option value="Haval">Haval</option>
+                                <option value="Honda">Honda</option>
+                                <option value="Hongqi">Hongqi</option>
+                                <option value="HOWO">HOWO</option>
+                                <option value="Hummer">Hummer</option>
+                                <option value="Hyundai">Hyundai</option>
+                                <option value="IJ">IJ</option>
+                                <option value="Infiniti">Infiniti</option>
+                                <option value="Iran Khodro">Iran Khodro</option>
+                                <option value="Isuzu">Isuzu</option>
+                                <option value="ItalCar">ItalCar</option>
+                                <option value="Iveco">Iveco</option>
+                                <option value="JAC">JAC</option>
+                                <option value="Jaguar">Jaguar</option>
+                                <option value="Jeep">Jeep</option>
+                                <option value="Jetour">Jetour</option>
+                                <option value="Jiajue">Jiajue</option>
+                                <option value="Jianshe">Jianshe</option>
+                                <option value="Jonway">Jonway</option>
+                                <option value="KAIYI">KAIYI</option>
+                                <option value="KamAz">KamAz</option>
+                                <option value="KAvZ">KAvZ</option>
+                                <option value="Kawasaki">Kawasaki</option>
+                                <option value="Kayo">Kayo</option>
+                                <option value="Keeway">Keeway</option>
+                                <option value="Khazar">Khazar</option>
+                                <option value="Kia">Kia</option>
+                                <option value="KTM">KTM</option>
+                                <option value="Kuba">Kuba</option>
+                                <option value="LADA(VAZ)">Khazar</option>
+                                <option value="Lamborghini">Lamborghini</option>
+                                <option value="Land Rover">Land Rover</option>
+                                <option value="Lexus">Lexus</option>
+                                <option value="Lifan">Lifan</option>
+                                <option value="Lincoln">Lincoln</option>
+                                <option value="LuAz">LuAz</option>
+                                <option value="Mack">Mack</option>
+                                <option value="MAN">MAN</option>
+                                <option value="Maserati">Maserati</option>
+                                <option value="MAZ">MAZ</option>
+                                <option value="McLaren">McLaren</option>
+                                <option value="Megelli">Megelli</option>
+                                <option value="Mercedes">Mercedes</option>
+                                <option value="Mercedes-Maybach">Mercedes-Maybach</option>
+                                <option value="Mercury">Mercury</option>
+                                <option value="MG">MG</option>
+                                <option value="Mini">Mini</option>
+                                <option value="Minsk">Minsk</option>
+                                <option value="Mitsubishi">Mitsubishi</option>
+                                <option value="Mondial">Mondial</option>
+                                <option value="Moskvich">Moskvich</option>
+                                <option value="Muravey">Muravey</option>
+                                <option value="Nama">Nama</option>
+                                <option value="Neman">Neman</option>
+                                <option value="Nissan">Nissan</option>
+                                <option value="NIU">NIU</option>
+                                <option value="Opel">Opel</option>
+                                <option value="Otocar">Otocar</option>
+                                <option value="PAZ">PAZ</option>
+                                <option value="Peugeot">Peugeot</option>
+                                <option value="Pilotcar">Pilotcar</option>
+                                <option value="Polaris">Polaris</option>
+                                <option value="Polestar">Polestar</option>
+                                <option value="Pontiac">Pontiac</option>
+                                <option value="Porsche">Porsche</option>
+                                <option value="RAF">RAF</option>
+                                <option value="Ravon">Ravon</option>
+                                <option value="Renault">Renault</option>
+                                <option value="RKS">RKS</option>
+                                <option value="Rolls-Royce">Rolls-Royce</option>
+                                <option value="Rover">Rover</option>
+                                <option value="Saab">Saab</option>
+                                <option value="Saipa">Saipa</option>
+                                <option value="Scania">Scania</option>
+                                <option value="SEAT">SEAT</option>
+                                <option value="Setra">Setra</option>
+                                <option value="Shacman">Shacman</option>
+                                <option value="Shaolin">Shaolin</option>
+                                <option value="Shuanghuan">Shuanghuan</option>
+                                <option value="Skoda">Skoda</option>
+                                <option value="Skyline">Skyline</option>
+                                <option value="Skywell">Skywell</option>
+                                <option value="Smart">Smart</option>
+                                <option value="Sport">Sport</option>
+                                <option value="Ssang Yong">Ssang Yong</option>
+                                <option value="Subaru">Subaru</option>
+                                <option value="Suzuki">Suzuki</option>
+                                <option value="SYM">SYM</option>
+                                <option value="Tata">Tata</option>
+                                <option value="Tesla">Tesla</option>
+                                <option value="Tofas">Tofas</option>
+                                <option value="Toyota">Toyota</option>
+                                <option value="Tufan">Tufan</option>
+                                <option value="UAZ">UAZ</option>
+                                <option value="Ural">Ural</option>
+                                <option value="Vespa">Vespa</option>
+                                <option value="Volkswagen">Volkswagen</option>
+                                <option value="Volvo">Volvo</option>
+                                <option value="Vosxod">Vosxod</option>
+                                <option value="Yadea">Yadea</option>
+                                <option value="Yamaha">Yamaha</option>
+                                <option value="ZAZ">ZAZ</option>
+                                <option value="ZIL">ZIL</option>
+                                <option value="Zongshen">Zongshen</option>
+                                <option value="Zontes">Zontes</option>
+                                <option value="ZX Auto">ZX Auto</option>
+                            </select>
+
+                            <select name="Model" id="model" disabled>
+                                <option value="model" dis>Model</option>
+                            </select>
+
+                            <div class="radio">
+                                <input class="radio__input" checked type="radio" value="option1" name="myRadio"
+                                    id="myRadio1">
+                                <label class="radio__label" for="myRadio1">Hamısı</label>
+                                <input class="radio__input" type="radio" value="option2" name="myRadio" id="myRadio2">
+                                <label class="radio__label" for="myRadio2">Yeni</label>
+                                <input class="radio__input" type="radio" value="option3" name="myRadio" id="myRadio3">
+                                <label class="radio__label" for="myRadio3">Sürülmüş</label>
+                            </div>
+
+                            <select name="City" id="Cities">
+                                <option value="city_select" disabled selected hidden>Şəhər</option>
+                                <option value="reset">Sıfırla</option>
+                                <option value="Ağcabədi">Ağcabədi</option>
+                                <option value="Ağdam">Ağdam</option>
+                                <option value="Ağdaş">Ağdaş</option>
+                                <option value="Ağstafa">Ağstafa</option>
+                                <option value="Ağsu">Ağsu</option>
+                                <option value="Astara">Astara</option>
+                                <option value="Ağcabədi">Ağcabədi</option>
+                                <option value="Bakı">Bakı</option>
+                            </select>
+                        </div>
+                        <div class="part_2_filters">
+                            <div id="price">
+                                <input type="text" inputmode="numeric" placeholder="Qiymət, min." id="inp1">
+                                <input type="text" inputmode="numeric" placeholder="maks." id="inp2">
+                            </div>
+
+                            <div id="currency1">
+                                <select name="currency" id="currency">
+                                    <option value="AZN">AZN</option>
+                                    <option value="USD">USD</option>
+                                    <option value="EUR">EUR</option>
+                                </select>
+
+                                <select name="bans" id="bans">
+                                    <option value="city_select" disabled selected hidden>Ban növü</option>
+                                    <option value="reset">Sıfırla</option>
+                                    <option value="Ağcabədi">Avtobus</option>
+                                    <option value="Ağdam">Dartqı</option>
+                                    <option value="Ağdaş">Furqon</option>
+                                    <option value="Ağstafa">Hetçbek</option>
+                                    <option value="Ağsu">Kabriolet</option>
+                                    <option value="Astara">Karvan</option>
+                                    <option value="Ağcabədi">Kupe</option>
+                                </select>
+
+
+                                <div id="year">
+                                    <input type="text" inputmode="numeric" placeholder="il, min." id="inp1_year">
+                                    <input type="text" inputmode="numeric" placeholder="maks." id="inp2_year">
+                                </div>
+
+                                <div id="elan_sayi">
+                                    <p>Bu gün: <a style="text-decoration: none; cursor: pointer;">1485 yeni elan</a></p>
+                                </div>
+
+                                <a href="" class="reset" style="text-decoration: none;">Sıfırla</a>
+
+                                <button id="elan_btn">Elanları göstər</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
             </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li><a href="#" style="color: white;">Bütün elanlar</a></li>
-                    <li><a href="#" style="color: white;">Avtosalonlar</a></li>
-                    <li class="dropdown">
-
-                        <a href="#" class="dropdown-toggle dropdown_parts dropdown" data-toggle="dropdown" role="button"
-                            aria-haspopup="true" aria-expanded="false" style="color: white;">Ehtiyat hissələr və
-                            aksesuarlar</a>
-                        <ul class="dropdown-menu"
-                            style="min-height: 270px; background: white; box-shadow: 0 5px 10px 0 rgb(0 0 0 / 15%); margin-top: -10px; border-radius: 8px; font-size: 15px; line-height: 40px; width: 230px; padding-left: 2px;">
-                            <li><a href="index.html">Audio və video texnika</a>
-
-                                <a href="index.html">Avtokosmetika və avtokimya</a>
-
-                                <a href="index.html">Ehtiyat hissələr</a>
-
-                                <a href="index.html">GPS naviqatorlar</a>
-
-                                <a href="index.html">Qeydiyyat nişanları</a>
-
-                                <a href="index.html">Siqnalizasiyalar</a>
-
-                                <a href="index.html">Videoqeydiyyatçılar</a>
-
-                                <a href="index.html">Şinlər, disklər və təkərlər</a>
-
-                                <a href="index.html">Digər</a>
-                            </li>
-                            
-                        <button class="yeni_elan">
-                            <i class="fa-solid fa-circle-plus"></i> Yeni elan
-                        </button>
-                        
-                        </ul>
+        </div>
+        </div>
+    </section>
 
 
-                    </li>
-                </ul>
-            </div><!-- /.navbar-collapse -->
-        </div><!-- /.container-fluid -->
-    </nav>
 </body>
 
 </html>

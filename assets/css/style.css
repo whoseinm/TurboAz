@@ -1,453 +1,1653 @@
-body{
+body {
     margin: 0px auto;
     padding: 0px;
 }
 
-.ad_place{
+.ad_place {
     height: 140px;
     /* background: red; */
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 /* -------------------------======================NAVBAR 1==========================-------------------------------------------- */
-.nav_1{
+.nav_1 {
     min-height: 40px;
     background-color: #F6F7FA;
     display: flex;
     justify-content: space-between;
 }
 
-.nav_1 .sites ul{
+.nav_1 .sites ul {
     display: flex;
     list-style: none;
     padding-top: 10px;
 }
 
-.nav_1 .sites ul li{
+.nav_1 .sites ul li {
     padding-left: 20px;
 }
 
-.nav_1 .sites ul li a{
+.nav_1 .sites ul li a {
     color: #8D94AD;
     text-decoration: none;
 }
 
-.nav_1 .sites ul li a:hover{
+.nav_1 .sites ul li a:hover {
     color: #CA1016;
 }
 
-.nav_1 .support ul{
+.nav_1 .support ul {
     display: flex;
     list-style: none;
     padding-top: 10px;
 }
 
-.nav_1 .support ul li{
+.nav_1 .support ul li {
     padding-left: 20px;
 }
 
-.nav_1 .support ul li a{
+.nav_1 .support ul li a {
     color: #000;
     text-decoration: none;
 }
 
-.nav_1 .support ul li a:hover{
+.nav_1 .support ul li a:hover {
     color: #CA1016;
     cursor: default;
 }
 
-.nav_1 .help_lang ul{
+.nav_1 .help_lang ul {
     display: flex;
     list-style: none;
     padding-top: 10px;
 }
 
-.nav_1 .help_lang ul li{
+.nav_1 .help_lang ul li {
     padding-left: 20px;
 }
 
-.nav_1 .help_lang ul li a{
+.nav_1 .help_lang ul li a {
     color: #8D94AD;
     text-decoration: none;
 }
 
-.nav_1 .help_lang ul li a:hover{
+.nav_1 .help_lang ul li a:hover {
     color: #CA1016;
 }
-.nav_1 .fav_login ul{
+
+.nav_1 .fav_login ul {
     display: flex;
     list-style: none;
     padding-top: 10px;
 }
 
-.nav_1 .fav_login ul li{
+.nav_1 .fav_login ul li {
     padding-left: 20px;
 }
 
-.nav_1 .fav_login ul li a{
+.nav_1 .fav_login ul li a {
     color: #8D94AD;
     text-decoration: none;
     font-size: 15px;
 }
 
-.nav_1 .fav_login ul li a:hover{
+.nav_1 .fav_login ul li a:hover {
     color: #CA1016;
 }
 
 /* -------------------------======================NAVBAR 1==========================-------------------------------------------- */
 
 /* -------------------------======================NAVBAR 2==========================-------------------------------------------- */
-.nav_2{
+.nav_2 {
     height: 60px;
     background: #CA1016;
     display: flex;
     align-items: center;
 }
 
-.navbar-default .navbar-brand a:hover{
+.navbar-default .navbar-brand a:hover {
     color: white;
 }
 
-.dropdown-menu{
+.dropdown-menu {
     margin-top: 10px;
     padding-top: 10px;
     border-radius: 10px;
     background: #fff;
-
 }
 
+.hover li a {
+    color: #8D94AD;
+}
 
 /* -------------------------======================NAVBAR 2==========================-------------------------------------------- */
 
-@media only screen and (max-width: 600px){
-    .nav_1{
+@media only screen and (max-width: 600px) {
+    .nav_1 {
         min-height: 40px;
         background-color: #F6F7FA;
         font-size: 14px;
     }
-    
-    .nav_1 .sites ul{
+
+    .nav_1 .sites ul {
         position: relative;
-        left: -20px;
+        left: -170px;
     }
-    .nav_1 .support{
+
+    .nav_1 .support {
         display: none;
     }
 
-    .nav_1 .help_lang{
+    .nav_1 .help_lang {
         display: none;
     }
 
-    .nav_1 .fav_login{
+    .nav_1 .fav_login {
         display: block;
+        position: absolute;
+        float: right;
+        left: 240px;
     }
-    .nav_2 h4{
+
+    .nav_2 h4 {
         color: white;
         font-weight: bolder;
         margin-left: -50px;
     }
 
-    .nav_2 .pages ul{
+    .nav_2 .pages ul {
         list-style: none;
         display: flex;
     }
-    
-    .nav_2 .pages ul li{
+
+    .nav_2 .pages ul li {
         padding-left: 20px;
         padding-top: 10px;
     }
 
-    .nav_2 .pages ul li a{
+    .nav_2 .pages ul li a {
         color: white;
         text-decoration: none;
     }
-    .nav_2 .pages ul li a:hover{
+
+    .nav_2 .pages ul li a:hover {
         color: #F6D0CE;
     }
 
-    .h_brand{
+    .h_brand {
         color: white;
         font-weight: bolder;
         margin-left: 0px;
+    }
+
+    .yeni_elan {
+        background: #7ED321;
+        border: none;
+        padding: 9px 9px 9px 9px;
+        border-radius: 5px;
+        color: white;
+        transition: 0.3s;
+        float: left;
+        margin-left: 10px;
+        margin-top: 0px;
+    }
+
+    .yeni_elan:hover {
+        background: #85C01F;
+    }
+
+    #cars {
+        position: relative;
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        height: 50px;
+        border-radius: 5px;
+        content: "Marka";
+        color: #8D94AD;
+        outline: 0px;
+        border: 1px solid #dfe3e9;
+        font-size: 15px;
+        padding: 5px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    #cars:focus {
+        color: #000;
+    }
+
+    #model {
+        position: relative;
+        left: 0px;
+        top: 10px;
+        width: 100%;
+        height: 50px;
+        border-radius: 5px;
+        content: "Marka";
+        color: #8D94AD;
+        outline: 0px;
+        border: 1px solid #dfe3e9;
+        font-size: 15px;
+        padding: 5px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    #model:focus {
+        color: #000;
+    }
+
+    .radio {
+        position: relative;
+        top: 10px;
+        left: 0px;
+        display: inline-flex;
+        overflow: hidden;
+        border-radius: 7px;
+        width: 100%;
+        box-shadow: 0 0 5px rgb(0 0 0 / 0.25);
+    }
+
+    .radio__input {
+        display: none;
+    }
+
+    .radio__label {
+        padding: 13px 17px;
+        font-size: 15px;
+        font-family: sans-serif;
+        color: #8D94AD;
+        background: #fff;
+        cursor: pointer;
+        transition: background 0.1s;
+        width: 100%;
+        text-align: center;
+    }
+
+    .radio__label:not(:last-of-type) {
+        border-right: 1px solid #dfe3e9;
+    }
+
+    .radio__input:checked+.radio__label {
+        background: #CA1016;
+        color: white;
+    }
+
+    #Cities {
+        position: relative;
+        left: 0px;
+        top: 10px;
+        width: 100%;
+        height: 50px;
+        border-radius: 5px;
+        content: "Marka";
+        color: #8D94AD;
+        outline: 0px;
+        border: 1px solid #dfe3e9;
+        font-size: 15px;
+        padding: 5px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    #inp1{
+        position: relative;
+        left: 0px;
+        top: 20px;
+        width: 50%;
+        height: 50px;
+        border-radius: 5px;
+        content: "Marka";
+        color: #8D94AD;
+        outline: 0px;
+        border: 1px solid #dfe3e9;
+        font-size: 14px;
+        padding: 5px;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    #inp2{
+        position: relative;
+        left: 0px;
+        top: 20px;
+        width: 49%;
+        height: 50px;
+        border-radius: 5px;
+        content: "Marka";
+        color: #8D94AD;
+        outline: 0px;
+        border: 1px solid #dfe3e9;
+        font-size: 14px;
+        padding: 5px;
+        font-family: 'Roboto', sans-serif;
+    }
+    #currency{
+        position: relative;
+        top: 30px;
+        left: 0px;
+        width: 100%;
+        height: 48px;
+        border-radius: 5px;
+        color: #8D94AD;
+        outline: 0px;
+        border: 1px solid #dfe3e9;
+        font-size: 15px;
+        padding: 5px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    #bans{
+        position: relative;
+        left: 0px;
+        top: 40px;
+        width: 100%;
+        height: 50px;
+        border-radius: 5px;
+        content: "Marka";
+        color: #8D94AD;
+        outline: 0px;
+        border: 1px solid #dfe3e9;
+        font-size: 15px;
+        padding: 5px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    #inp1_year{
+        position: relative;
+        left: 0px;
+        top: 50px;
+        width: 50%;
+        height: 50px;
+        border-radius: 5px;
+        content: "Marka";
+        color: #8D94AD;
+        outline: 0px;
+        border: 1px solid #dfe3e9;
+        font-size: 14px;
+        padding: 5px;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    #inp2_year{
+        position: relative;
+        left: 0px;
+        top: 50px;
+        width: 49%;
+        height: 50px;
+        border-radius: 5px;
+        content: "Marka";
+        color: #8D94AD;
+        outline: 0px;
+        border: 1px solid #dfe3e9;
+        font-size: 14px;
+        padding: 5px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .no-border{
+        border: 0px solid transparent;
+    }
+
+    
+    #elan_sayi{
+        margin-top: 70px;
+        margin-bottom: 10px;
+        padding-left: 5px;
+    }
+
+    #elan_btn{
+        float: right;
+        margin-right: 0px;
+        margin-top: -30px;
+        padding: 10px 35px;
+        border-radius: 8px;
+        background: #CA1016;
+        border: 0px;
+        color: white;
+        transition: 0.2s;
+    }
+
+    #elan_btn:hover{
+        background: #B80D13;
+    }
+
+    .reset{
+        color: #CA1016;
+        text-decoration: none;
+        padding-left: 5px;
+    }
+
+    .reset:hover{
+        color: #CA1016;
     }
 }
 
 
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (min-width: 600px) and (max-width: 768px){
-    .nav_1{
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    .nav_1 {
         min-height: 40px;
         background-color: #F6F7FA;
         font-size: 14px;
     }
-    
-    .nav_1 .sites ul{
+
+    .nav_1 .sites ul {
         position: relative;
         left: -20px;
     }
-    .nav_1 .support{
+
+    .nav_1 .support {
         display: none;
     }
 
-    .nav_1 .help_lang{
+    .nav_1 .help_lang {
         display: none;
     }
 
-    .nav_1 .fav_login{
+    .nav_1 .fav_login {
         display: block;
     }
 
-    .nav_2 h4{
+    .nav_2 h4 {
         color: white;
         font-weight: bolder;
         margin-left: -50px;
     }
 
-    .nav_2 .pages ul{
+    .nav_2 .pages ul {
         list-style: none;
         display: flex;
     }
-    
-    .nav_2 .pages ul li{
+
+    .nav_2 .pages ul li {
         padding-left: 20px;
         padding-top: 10px;
     }
 
-    .nav_2 .pages ul li a{
+    .nav_2 .pages ul li a {
         color: white;
         text-decoration: none;
     }
-    .nav_2 .pages ul li a:hover{
+
+    .nav_2 .pages ul li a:hover {
         color: #F6D0CE;
     }
 
-    .h_brand{
+    .h_brand {
         color: white;
         font-weight: bolder;
     }
 
-    .yeni_elan{
+    .yeni_elan {
         background: #7ED321;
         border: none;
         padding: 9px 9px 9px 9px;
         border-radius: 5px;
         color: white;
         transition: 0.3s;
-        float: right; position: relative; left: -650px; bottom: -100px; margin-top: -46px;
+        float: left;
+        margin-left: 10px;
+        margin-top: 0px;
     }
-    
+
     .yeni_elan:hover {
         background: #85C01F;
+    }
+
+    #cars {
+        position: relative;
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        height: 50px;
+        border-radius: 5px;
+        content: "Marka";
+        color: #8D94AD;
+        outline: 0px;
+        border: 1px solid #dfe3e9;
+        font-size: 15px;
+        padding: 5px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    #cars:focus {
+        color: #000;
+    }
+
+    #model {
+        position: relative;
+        left: 0px;
+        top: 10px;
+        width: 100%;
+        height: 50px;
+        border-radius: 5px;
+        content: "Marka";
+        color: #8D94AD;
+        outline: 0px;
+        border: 1px solid #dfe3e9;
+        font-size: 15px;
+        padding: 5px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    #model:focus {
+        color: #000;
+    }
+
+    .radio {
+        position: relative;
+        top: 10px;
+        left: 0px;
+        display: inline-flex;
+        overflow: hidden;
+        border-radius: 7px;
+        width: 100%;
+        box-shadow: 0 0 5px rgb(0 0 0 / 0.25);
+    }
+
+    .radio__input {
+        display: none;
+    }
+
+    .radio__label {
+        padding: 13px 17px;
+        font-size: 15px;
+        font-family: sans-serif;
+        color: #8D94AD;
+        background: #fff;
+        cursor: pointer;
+        transition: background 0.1s;
+        width: 100%;
+        text-align: center;
+    }
+
+    .radio__label:not(:last-of-type) {
+        border-right: 1px solid #dfe3e9;
+    }
+
+    .radio__input:checked+.radio__label {
+        background: #CA1016;
+        color: white;
+    }
+
+    #Cities {
+        position: relative;
+        left: 0px;
+        top: 10px;
+        width: 100%;
+        height: 50px;
+        border-radius: 5px;
+        content: "Marka";
+        color: #8D94AD;
+        outline: 0px;
+        border: 1px solid #dfe3e9;
+        font-size: 15px;
+        padding: 5px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    
+
+    #inp1{
+        position: relative;
+        left: 0px;
+        top: 20px;
+        width: 50%;
+        height: 50px;
+        border-radius: 5px;
+        content: "Marka";
+        color: #8D94AD;
+        outline: 0px;
+        border: 1px solid #dfe3e9;
+        font-size: 14px;
+        padding: 5px;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    #inp2{
+        position: relative;
+        left: 0px;
+        top: 20px;
+        width: 49%;
+        height: 50px;
+        border-radius: 5px;
+        content: "Marka";
+        color: #8D94AD;
+        outline: 0px;
+        border: 1px solid #dfe3e9;
+        font-size: 14px;
+        padding: 5px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    #currency{
+        position: relative;
+        top: 30px;
+        left: 0px;
+        width: 31%;
+        height: 48px;
+        border-radius: 5px;
+        color: #8D94AD;
+        outline: 0px;
+        border: 1px solid #dfe3e9;
+        font-size: 15px;
+        padding: 5px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    #bans{
+        position: relative;
+        left: 0px;
+        top: 40px;
+        width: 100%;
+        height: 50px;
+        border-radius: 5px;
+        content: "Marka";
+        color: #8D94AD;
+        outline: 0px;
+        border: 1px solid #dfe3e9;
+        font-size: 15px;
+        padding: 5px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    #inp1_year{
+        position: relative;
+        left: 0px;
+        top: 50px;
+        width: 50%;
+        height: 50px;
+        border-radius: 5px;
+        content: "Marka";
+        color: #8D94AD;
+        outline: 0px;
+        border: 1px solid #dfe3e9;
+        font-size: 14px;
+        padding: 5px;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    #inp2_year{
+        position: relative;
+        left: 0px;
+        top: 50px;
+        width: 49%;
+        height: 50px;
+        border-radius: 5px;
+        content: "Marka";
+        color: #8D94AD;
+        outline: 0px;
+        border: 1px solid #dfe3e9;
+        font-size: 14px;
+        padding: 5px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .no-border{
+        border: 0px solid transparent;
+    }
+
+    #elan_sayi{
+        margin-top: 70px;
+        margin-bottom: 10px;
+        padding-left: 5px;
+    }
+
+    #elan_btn{
+        float: right;
+        margin-right: 0px;
+        margin-top: -30px;
+        padding: 10px 35px;
+        border-radius: 8px;
+        background: #CA1016;
+        border: 0px;
+        color: white;
+        transition: 0.2s;
+    }
+
+    #elan_btn:hover{
+        background: #B80D13;
+    }
+
+    .reset{
+        color: #CA1016;
+        text-decoration: none;
+        padding-left: 5px;
+    }
+
+    .reset:hover{
+        color: #CA1016;
+    }
+    .filters_cont{
+        background: #EBEDF3; 
+        margin-top: -20px;
+        min-height: 200px; 
+        padding-top: 20px;
     }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) and (max-width: 992px){
-    .nav_1{
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .nav_1 {
         min-height: 40px;
         background-color: #F6F7FA;
         font-size: 14px;
     }
-    
-    .nav_1 .sites ul{
+
+    .nav_1 .sites ul {
         position: relative;
         left: -100px;
     }
-    .nav_1 .support{
+
+    .nav_1 .support {
         display: none;
     }
 
-    .nav_1 .help_lang{
+    .nav_1 .help_lang {
         display: block;
     }
 
-    .nav_1 .fav_login{
+    .nav_1 .fav_login {
         display: block;
     }
 
-    .nav_2 h4{
+    .nav_2 h4 {
         color: white;
         font-weight: bolder;
         margin-left: -15px;
     }
 
-    .nav_2 .pages ul{
+    .nav_2 .pages ul {
         list-style: none;
         display: flex;
     }
-    
-    .nav_2 .pages ul li{
+
+    .nav_2 .pages ul li {
         padding-left: 20px;
         padding-top: 10px;
     }
 
-    .nav_2 .pages ul li a{
+    .nav_2 .pages ul li a {
         color: white;
         text-decoration: none;
     }
-    .nav_2 .pages ul li a:hover{
+
+    .nav_2 .pages ul li a:hover {
         color: #F6D0CE;
     }
 
-    .h_brand{
+    .h_brand {
         color: white;
         font-weight: bolder;
         margin-left: -10px;
     }
 
-    .yeni_elan{
+    .yeni_elan {
         background: #7ED321;
         border: none;
         padding: 9px 9px 9px 9px;
         border-radius: 5px;
         color: white;
         transition: 0.3s;
-        float: right; position: relative; right: -160px; margin-top: -46px;
+        float: right;
+        position: relative;
+        right: -160px;
+        margin-top: -46px;
     }
-    
+
     .yeni_elan:hover {
         background: #85C01F;
     }
+
+    #cars {
+        position: relative;
+        left: -10px;
+        top: 0px;
+        width: 232px;
+        height: 50px;
+        border-radius: 5px;
+        content: "Marka";
+        color: #8D94AD;
+        outline: 0px;
+        border: 1px solid #dfe3e9;
+        font-size: 15px;
+        padding: 5px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    #cars:focus {
+        color: #000;
+    }
+
+    #model {
+        position: relative;
+        left: 0px;
+        top: 0px;
+        width: 232px;
+        height: 50px;
+        border-radius: 5px;
+        content: "Marka";
+        color: #8D94AD;
+        outline: 0px;
+        border: 1px solid #dfe3e9;
+        font-size: 15px;
+        padding: 5px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    #model:focus {
+        color: #000;
+    }
+
+    .radio {
+        position: relative;
+        top: -55px;
+        left: 480px;
+        display: inline-flex;
+        overflow: hidden;
+        border-radius: 7px;
+        box-shadow: 0 0 5px rgb(0 0 0 / 0.25);
+    }
+
+    .radio__input {
+        display: none;
+    }
+
+    .radio__label {
+        padding: 12px 16px;
+        font-size: 15px;
+        font-family: sans-serif;
+        color: #8D94AD;
+        background: #fff;
+        cursor: pointer;
+        transition: background 0.1s;
+    }
+
+    .radio__label:not(:last-of-type) {
+        border-right: 1px solid #dfe3e9;
+    }
+
+    .radio__input:checked+.radio__label {
+        background: #CA1016;
+        color: white;
+    }
+
+    #Cities {
+        position: relative;
+        left: -262px;
+        top: 0px;
+        width: 232px;
+        height: 50px;
+        border-radius: 5px;
+        content: "Marka";
+        color: #8D94AD;
+        outline: 0px;
+        border: 1px solid #dfe3e9;
+        font-size: 15px;
+        padding: 5px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    #inp1{
+        position: relative;
+        left: 235px;
+        top: -60px;
+        width: 119px;
+        height: 50px;
+        border-radius: 5px;
+        content: "Marka";
+        color: #8D94AD;
+        outline: 0px;
+        border: 1px solid #dfe3e9;
+        font-size: 14px;
+        padding: 5px;
+        font-family: 'Roboto', sans-serif;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius:0px;
+    }
     
+    #inp2{
+        position: relative;
+        left: 225px;
+        top: -60px;
+        width: 119px;
+        height: 50px;
+        border-radius: 5px;
+        content: "Marka";
+        color: #8D94AD;
+        outline: 0px;
+        border: 1px solid #dfe3e9;
+        font-size: 14px;
+        padding: 5px;
+        font-family: 'Roboto', sans-serif;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius:0px;
+    }
+
+    #currency{
+        position: relative;
+        top: -110px;
+        left: 481px;
+        width: 65px;
+        height: 48px;
+        border-radius: 5px;
+        color: #8D94AD;
+        outline: 0px;
+        border: 1px solid #dfe3e9;
+        font-size: 15px;
+        padding: 5px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    #bans{
+        position: relative;
+        left: -80px;
+        top: -50px;
+        width: 232px;
+        height: 50px;
+        border-radius: 5px;
+        content: "Marka";
+        color: #8D94AD;
+        outline: 0px;
+        border: 1px solid #dfe3e9;
+        font-size: 15px;
+        padding: 5px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    
+    #inp1_year{
+        position: relative;
+        left: 235px;
+        top: -100px;
+        width: 120px;
+        height: 50px;
+        border-radius: 5px;
+        content: "Marka";
+        color: #8D94AD;
+        outline: 0px;
+        border: 1px solid #dfe3e9;
+        font-size: 14px;
+        padding: 5px;
+        font-family: 'Roboto', sans-serif;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius:0px;
+    }
+    
+    #inp2_year{
+        position: relative;
+        left: 225px;
+        top: -100px;
+        width: 120px;
+        height: 50px;
+        border-radius: 5px;
+        content: "Marka";
+        color: #8D94AD;
+        outline: 0px;
+        border: 1px solid #dfe3e9;
+        font-size: 14px;
+        padding: 5px;
+        font-family: 'Roboto', sans-serif;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius:0px;
+    }
+
+    #elan_sayi{
+        margin-top: -60px;
+        margin-bottom: 10px;
+        margin-left: -5px;
+    }
+
+    #elan_btn{
+        float: right;
+        margin-right: 0px;
+        margin-top: -30px;
+        padding: 10px 35px;
+        border-radius: 8px;
+        background: #CA1016;
+        border: 0px;
+        color: white;
+        transition: 0.2s;
+    }
+
+    #elan_btn:hover{
+        background: #B80D13;
+    }
+
+    .reset{
+        color: #CA1016;
+        text-decoration: none;
+        margin-left: -5px;
+    }
+
+    .reset:hover{
+        color: #CA1016;
+    }
+
+    .filters_cont{
+        background: #EBEDF3; 
+        margin-top: -20px;
+        min-height: 200px; 
+        padding-top: 20px;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (max-width: 1200px) and (min-width: 992px){
-    .nav_1{
+@media only screen and (max-width: 1200px) and (min-width: 992px) {
+    .nav_1 {
         min-height: 40px;
         background-color: #F6F7FA;
         font-size: 14px;
     }
-    
-    .nav_1 .sites ul{
+
+    .nav_1 .sites ul {
         position: relative;
-        left: 0px;
+        left: -120px;
     }
-    .nav_1 .support{
+
+    .nav_1 .support {
         display: none;
     }
 
-    .nav_1 .help_lang{
+    .nav_1 .help_lang {
         display: block;
     }
 
-    .nav_1 .fav_login{
+    .nav_1 .fav_login {
         display: block;
     }
 
-    .nav_2 h4{
+    .nav_2 h4 {
         color: white;
         font-weight: bolder;
         margin-left: 145px;
     }
 
-    .nav_2 .pages ul{
+    .nav_2 .pages ul {
         list-style: none;
         display: flex;
     }
-    
-    .nav_2 .pages ul li{
+
+    .nav_2 .pages ul li {
         padding-left: 20px;
         padding-top: 10px;
     }
 
-    .nav_2 .pages ul li a{
+    .nav_2 .pages ul li a {
         color: white;
         text-decoration: none;
     }
-    .nav_2 .pages ul li a:hover{
+
+    .nav_2 .pages ul li a:hover {
         color: #F6D0CE;
     }
 
-    .h_brand{
+    .h_brand {
         color: white;
         font-weight: bolder;
-        margin-left: 145px;
+        margin-left: 25px;
     }
-    
-    .yeni_elan{
+
+    .yeni_elan {
         background: #7ED321;
         border: none;
         padding: 9px 9px 9px 9px;
         border-radius: 5px;
         color: white;
         transition: 0.3s;
-        float: right; position: relative; right: -465px; margin-top: -46px;
+        float: right;
+        position: relative;
+        right: -290px;
+        margin-top: -46px;
     }
-    
+
     .yeni_elan:hover {
         background: #85C01F;
     }
+
+    .filters_cont{
+        background: #EBEDF3; 
+        margin-top: -20px;
+        min-height: 200px; 
+        padding-top: 20px;
+    }
+
+    #cars {
+        position: relative;
+        left: 25px;
+        top: 0px;
+        width: 232px;
+        height: 50px;
+        border-radius: 5px;
+        content: "Marka";
+        color: #8D94AD;
+        outline: 0px;
+        border: 1px solid #dfe3e9;
+        font-size: 15px;
+        padding: 5px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    #cars:focus {
+        color: #000;
+    }
+
+    #model{
+        position: relative;
+        left: 40px;
+        top: 0px;
+        width: 232px;
+        height: 50px;
+        border-radius: 5px;
+        content: "Marka";
+        color: #8D94AD;
+        outline: 0px;
+        border: 1px solid #dfe3e9;
+        font-size: 15px;
+        padding: 5px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    #model:focus{
+        color: #000;
+    }
+
+    .radio{
+        position: relative;
+        top: 0px;
+        left: 50px;
+        display: inline-flex;
+        overflow: hidden;
+        border-radius: 7px;
+        box-shadow: 0 0 5px rgb(0 0 0 / 0.25);
+    }
+
+    .radio__input{
+        display: none;
+    }
+
+    .radio__label{
+        padding: 12px 43px;
+        font-size: 15px;
+        font-family: sans-serif;
+        color: #8D94AD;
+        background: #fff;
+        cursor: pointer;
+        transition: background 0.2s;
+    }
+
+    .radio__label:not(:last-of-type) {
+        border-right: 1px solid #dfe3e9;
+    }
+
+    .radio__input:checked+.radio__label {
+        background: #CA1016;
+        color: white;
+    }
+
+    #Cities {
+        position: relative;
+        left: 25px;
+        top: 0px;
+        width: 232px;
+        height: 50px;
+        border-radius: 5px;
+        content: "Marka";
+        color: #8D94AD;
+        outline: 0px;
+        border: 1px solid #dfe3e9;
+        font-size: 15px;
+        padding: 5px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    #inp1{
+        position: relative;
+        left: 275px;
+        top: -50px;
+        width: 119px;
+        height: 50px;
+        border-radius: 5px;
+        content: "Marka";
+        color: #8D94AD;
+        outline: 0px;
+        border: 1px solid #dfe3e9;
+        font-size: 14px;
+        padding: 5px;
+        font-family: 'Roboto', sans-serif;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius:0px;
+    }
     
+    #inp2{
+        position: relative;
+        left: 270px;
+        top: -50px;
+        width: 119px;
+        height: 50px;
+        border-radius: 5px;
+        content: "Marka";
+        color: #8D94AD;
+        outline: 0px;
+        border: 1px solid #dfe3e9;
+        font-size: 14px;
+        padding: 5px;
+        font-family: 'Roboto', sans-serif;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius:0px;
+    }
+
+    #currency{
+        position: relative;
+        top: -100px;
+        left: 521px;
+        width: 105px;
+        height: 48px;
+        border-radius: 5px;
+        color: #8D94AD;
+        outline: 0px;
+        border: 1px solid #dfe3e9;
+        font-size: 15px;
+        padding: 5px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    #bans{
+        position: relative;
+        left: -85px;
+        top: -40px;
+        width: 232px;
+        height: 50px;
+        border-radius: 5px;
+        content: "Marka";
+        color: #8D94AD;
+        outline: 0px;
+        border: 1px solid #dfe3e9;
+        font-size: 15px;
+        padding: 5px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    #inp1_year{
+        position: relative;
+        left: 275px;
+        top: -90px;
+        width: 122px;
+        height: 50px;
+        border-radius: 5px;
+        content: "Marka";
+        color: #8D94AD;
+        outline: 0px;
+        border: 1px solid #dfe3e9;
+        font-size: 14px;
+        padding: 5px;
+        font-family: 'Roboto', sans-serif;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius:0px;
+    }
+    
+    #inp2_year{
+        position: relative;
+        left: 265px;
+        top: -90px;
+        width: 122px;
+        height: 50px;
+        border-radius: 5px;
+        content: "Marka";
+        color: #8D94AD;
+        outline: 0px;
+        border: 1px solid #dfe3e9;
+        font-size: 14px;
+        padding: 5px;
+        font-family: 'Roboto', sans-serif;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius:0px;
+    }
+
+    #elan_sayi{
+        margin-top: -60px;
+        margin-bottom: 10px;
+        padding-left: 25px;
+    }
+
+    #elan_btn{
+        float: right;
+        margin-right: 80px;
+        margin-top: -30px;
+        padding: 10px 35px;
+        border-radius: 8px;
+        background: #CA1016;
+        border: 0px;
+        color: white;
+        transition: 0.2s;
+    }
+
+    #elan_btn:hover{
+        background: #B80D13;
+    }
+
+    .reset{
+        color: #CA1016;
+        text-decoration: none;
+        padding-left: 25px;
+    }
+
+    .reset:hover{
+        color: #CA1016;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px){
-    .nav_1{
+@media only screen and (min-width: 1200px) {
+    .nav_1 {
         min-height: 40px;
         background-color: #F6F7FA;
         font-size: 14px;
     }
-    
-    .nav_1 .sites ul{
+
+    .nav_1 .sites ul {
         position: relative;
         left: 0px;
     }
-    .nav_1 .support{
+
+    .nav_1 .support {
         display: block;
     }
 
-    .nav_1 .help_lang{
+    .nav_1 .help_lang {
         display: block;
     }
 
-    .nav_1 .fav_login{
+    .nav_1 .fav_login {
         display: block;
     }
 
-    .nav_2 h4{
+    .nav_2 h4 {
         color: white;
         font-weight: bolder;
         margin-left: 100px;
     }
 
-    .nav_2 .pages ul{
+    .nav_2 .pages ul {
         list-style: none;
         display: flex;
     }
-    
-    .nav_2 .pages ul li{
+
+    .nav_2 .pages ul li {
         padding-left: 20px;
         padding-top: 10px;
     }
 
-    .nav_2 .pages ul li a{
+    .nav_2 .pages ul li a {
         color: white;
         text-decoration: none;
     }
-    .nav_2 .pages ul li a:hover{
+
+    .nav_2 .pages ul li a:hover {
         color: #F6D0CE;
     }
 
-    .h_brand{
+    .h_brand {
         color: white;
         font-weight: bolder;
         margin-left: 95px;
     }
-    .yeni_elan{
+
+    .yeni_elan {
         background: #7ED321;
         border: none;
         padding: 9px 9px 9px 9px;
         border-radius: 5px;
         color: white;
         transition: 0.3s;
-        float: right; position: relative; right: -465px; margin-top: -46px;
+        float: right;
+        position: relative;
+        right: -465px;
+        margin-top: -46px;
     }
-    
+
     .yeni_elan:hover {
         background: #85C01F;
     }
+
+    .filters_cont{
+        background: #EBEDF3; 
+        margin-top: -20px;
+        min-height: 200px; 
+        padding-top: 20px;
+    }
+
+    #cars {
+        position: relative;
+        left: 95px;
+        top: 0px;
+        width: 232px;
+        height: 50px;
+        border-radius: 5px;
+        content: "Marka";
+        color: #8D94AD;
+        outline: 0px;
+        border: 1px solid #dfe3e9;
+        font-size: 15px;
+        padding: 5px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    #cars:focus {
+        color: #000;
+    }
+
+    #model {
+        position: relative;
+        left: 100px;
+        top: 0px;
+        width: 232px;
+        height: 50px;
+        border-radius: 5px;
+        content: "Marka";
+        color: #8D94AD;
+        outline: 0px;
+        border: 1px solid #dfe3e9;
+        font-size: 15px;
+        padding: 5px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    #model:focus {
+        color: #000;
+    }
+
+    .radio {
+        position: relative;
+        top: 0px;
+        left: 120px;
+        display: inline-flex;
+        overflow: hidden;
+        border-radius: 7px;
+        box-shadow: 0 0 5px rgb(0 0 0 / 0.25);
+    }
+
+    .radio__input {
+        display: none;
+    }
+
+    .radio__label {
+        padding: 13px 17px;
+        font-size: 15px;
+        font-family: sans-serif;
+        color: #8D94AD;
+        background: #fff;
+        cursor: pointer;
+        transition: background 0.1s;
+    }
+
+    .radio__label:not(:last-of-type) {
+        border-right: 1px solid #dfe3e9;
+    }
+
+    .radio__input:checked+.radio__label {
+        background: #CA1016;
+        color: white;
+    }
+
+    #Cities {
+        position: relative;
+        left: 143px;
+        top: 0px;
+        width: 235px;
+        height: 50px;
+        border-radius: 5px;
+        content: "Marka";
+        color: #8D94AD;
+        outline: 0px;
+        border: 1px solid #dfe3e9;
+        font-size: 15px;
+        padding: 5px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    #inp1{
+        position: relative;
+        left: 95px;
+        top: 0px;
+        width: 119px;
+        height: 50px;
+        border-radius: 5px;
+        content: "Marka";
+        color: #8D94AD;
+        outline: 0px;
+        border: 1px solid #dfe3e9;
+        font-size: 14px;
+        padding: 5px;
+        font-family: 'Roboto', sans-serif;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius:0px;
+    }
     
+    #inp2{
+        position: relative;
+        left: 85px;
+        top: 0px;
+        width: 119px;
+        height: 50px;
+        border-radius: 5px;
+        content: "Marka";
+        color: #8D94AD;
+        outline: 0px;
+        border: 1px solid #dfe3e9;
+        font-size: 14px;
+        padding: 5px;
+        font-family: 'Roboto', sans-serif;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius:0px;
+    }
+
+    #currency{
+        position: relative;
+        top: -50px;
+        left: 336px;
+        width: 75px;
+        height: 48px;
+        border-radius: 5px;
+        color: #000;
+        outline: 0px;
+        border: 1px solid #dfe3e9;
+        font-size: 15px;
+        padding: 5px;
+        font-family: 'Roboto', sans-serif;
+
+
+    }
+
+    .kredit:hover{
+        background: black;
+    }
+
+    #bans{
+        position: relative;
+        left: 510px;
+        top: -50px;
+        width: 256px;
+        height: 50px;
+        border-radius: 5px;
+        content: "Marka";
+        color: #8D94AD;
+        outline: 0px;
+        border: 1px solid #dfe3e9;
+        font-size: 15px;
+        padding: 5px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    #inp1_year{
+        position: relative;
+        left: 873px;
+        top: -100px;
+        width: 120px;
+        height: 50px;
+        border-radius: 5px;
+        content: "Marka";
+        color: #8D94AD;
+        outline: 0px;
+        border: 1px solid #dfe3e9;
+        font-size: 14px;
+        padding: 5px;
+        font-family: 'Roboto', sans-serif;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius:0px;
+    }
+    
+    #inp2_year{
+        position: relative;
+        left: 863px;
+        top: -100px;
+        width: 120px;
+        height: 50px;
+        border-radius: 5px;
+        content: "Marka";
+        color: #8D94AD;
+        outline: 0px;
+        border: 1px solid #dfe3e9;
+        font-size: 14px;
+        padding: 5px;
+        font-family: 'Roboto', sans-serif;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius:0px;
+    }
+
+    #elan_sayi{
+        margin-top: -60px;
+        margin-bottom: 10px;
+        padding-left: 95px;
+    }
+
+    #elan_btn{
+        float: right;
+        margin-right: 35px;
+        margin-top: -30px;
+        padding: 10px 35px;
+        border-radius: 8px;
+        background: #CA1016;
+        border: 0px;
+        color: white;
+        transition: 0.2s;
+    }
+
+    #elan_btn:hover{
+        background: #B80D13;
+    }
+
+    .reset{
+        color: #CA1016;
+        text-decoration: none;
+        padding-left: 95px;
+        position: relative;
+        top: -20px;
+        left: 650px;
+    }
+
+    .reset:hover{
+        color: #CA1016;
+    }
 }
