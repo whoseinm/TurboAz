@@ -350,6 +350,90 @@
                                     <input type="text" inputmode="numeric" placeholder="maks." id="inp2_year">
                                 </div>
 
+                                <div id="hided">
+                                    <select name="color" id="color">
+                                        <option value="select" disabled selected hidden>Rəng</option>
+                                        <option value="reset">Sıfırla</option>
+                                        <option value="Qara">Qara</option>
+                                        <option value="Yaş asfalt">Yaş asfalt</option>
+                                        <option value="Gümüşü">Gümüşü</option>
+                                        <option value="Ağ">Ağ</option>
+                                        <option value="Bej">Bej</option>
+                                        <option value="Tünd qırmızı">Tünd qırmızı</option>
+                                    </select>
+    
+                                    <select name="yanacaq" id="yanacaq">
+                                        <option value="select" disabled selected hidden>Yanacaq növü</option>
+                                        <option value="reset">Sıfırla</option>
+                                        <option value="Benzin">Benzin</option>
+                                        <option value="Dizel">Dizel</option>
+                                        <option value="Qaz">Qaz</option>
+                                        <option value="Elektro">Elektro</option>
+                                        <option value="Hibrid">Hibrid</option>
+                                        <option value="Plug-in Hibrid">Plug-in Hibrid</option>
+                                    </select>
+    
+                                    <select name="Ötürücü" id="ötürücü">
+                                        <option value="select" disabled selected hidden>Ötürücü</option>
+                                        <option value="reset">Sıfırla</option>
+                                        <option value="Arxa">Arxa</option>
+                                        <option value="Ön">Ön</option>
+                                        <option value="Tam">Tam</option>
+                                    </select>
+    
+                                    <select name="Sürətlər_qutusu" id="sürətlər_qutusu">
+                                        <option value="select" disabled selected hidden>Sürətlər qutusu</option>
+                                        <option value="reset">Sıfırla</option>
+                                        <option value="Mexaniki">Mexaniki</option>
+                                        <option value="Avtomat">Avtomat</option>
+                                        <option value="Robotlaşdırılmış">Robotlaşdırılmış</option>
+                                        <option value="Variator">Variator</option>
+                                    </select>
+    
+                                    <select name="Həcm_min" id="həcm_min">
+                                        <option value="select" disabled selected hidden>Həcm (sm<sup>3</sup>), min.</option>
+                                        <option value="reset">Sıfırla</option>
+                                        <option value="0">0</option>
+                                        <option value="100">100</option>
+                                        <option value="200">200</option>
+                                        <option value="300">300</option>
+                                        <option value="400">400</option>
+                                        <option value="500">500</option>
+                                        <option value="600">600</option>
+                                        <option value="700">700</option>
+                                        <option value="800">800</option>
+                                        <option value="900">900</option>
+                                        <option value="1000">1000</option>
+                                        <option value="1100">1100</option>
+                                        <option value="1200">1200</option>
+                                        <option value="1300">1300</option>
+                                        <option value="1400">1400</option>
+                                        <option value="1500">1500</option>
+                                    </select>
+    
+                                    <select name="Həcm_min" id="həcm_maks">
+                                        <option value="select" disabled selected hidden>maks</option>
+                                        <option value="reset">Sıfırla</option>
+                                        <option value="0">0</option>
+                                        <option value="100">100</option>
+                                        <option value="200">200</option>
+                                        <option value="300">300</option>
+                                        <option value="400">400</option>
+                                        <option value="500">500</option>
+                                        <option value="600">600</option>
+                                        <option value="700">700</option>
+                                        <option value="800">800</option>
+                                        <option value="900">900</option>
+                                        <option value="1000">1000</option>
+                                        <option value="1100">1100</option>
+                                        <option value="1200">1200</option>
+                                        <option value="1300">1300</option>
+                                        <option value="1400">1400</option>
+                                        <option value="1500">1500</option>
+                                    </select>
+    
+                                </div>
+                                
                                 <div id="elan_sayi">
                                     <p>Bu gün: <a style="text-decoration: none; cursor: pointer;">1485 yeni elan</a></p>
                                 </div>
@@ -357,6 +441,8 @@
                                 <a href="" class="reset" style="text-decoration: none;">Sıfırla</a>
 
                                 <button id="elan_btn">Elanları göstər</button>
+
+                                <a href="" class="more_filter">Daha çox filtr <i class="fa-solid fa-angle-down" style="font-size: 15px;"></i></a>
                             </div>
                         </div>
 

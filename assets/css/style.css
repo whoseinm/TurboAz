@@ -198,6 +198,13 @@ body {
         background: #85C01F;
     }
 
+    .filters_cont{
+        background: #EBEDF3; 
+        margin-top: -20px;
+        min-height: 200px; 
+        padding-top: 20px;
+    }
+
     #cars {
         position: relative;
         left: 0px;
@@ -419,6 +426,130 @@ body {
 
     .reset:hover{
         color: #CA1016;
+    }
+
+    .more_filter{
+        float: right;
+        margin-top: -20px;
+        margin-right: 20px;
+        color: #CA1016;
+    }
+
+    .more_filter:hover{
+        text-decoration: none;
+        color: #CA1016;
+    }
+
+    #color{
+        position: relative;
+        left: 0px;
+        top: 60px;
+        width: 100%;
+        height: 50px;
+        border-radius: 5px;
+        content: "Marka";
+        color: #8D94AD;
+        outline: 0px;
+        border: 1px solid #dfe3e9;
+        font-size: 15px;
+        padding: 5px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    #yanacaq{
+        position: relative;
+        left: 0px;
+        top: 70px;
+        width: 100%;
+        height: 50px;
+        border-radius: 5px;
+        content: "Marka";
+        color: #8D94AD;
+        outline: 0px;
+        border: 1px solid #dfe3e9;
+        font-size: 15px;
+        padding: 5px;
+        font-family: 'Roboto', sans-serif;
+        margin-bottom: 20px;
+    }
+
+    #ötürücü{
+        position: relative;
+        left: 0px;
+        top: 60px;
+        width: 100%;
+        height: 50px;
+        border-radius: 5px;
+        content: "Marka";
+        color: #8D94AD;
+        outline: 0px;
+        border: 1px solid #dfe3e9;
+        font-size: 15px;
+        padding: 5px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    #sürətlər_qutusu{
+        position: relative;
+        left: 0px;
+        top: 70px;
+        width: 100%;
+        height: 50px;
+        border-radius: 5px;
+        content: "Marka";
+        color: #8D94AD;
+        outline: 0px;
+        border: 1px solid #dfe3e9;
+        font-size: 15px;
+        padding: 5px;
+        font-family: 'Roboto', sans-serif;
+        margin-bottom: 20px;
+    }
+
+    
+            
+    #həcm_min{
+        position: relative;
+        left: 0px;
+        top: 70px;
+        margin-bottom: 50px;
+        width: 50%;
+        height: 50px;
+        border-radius: 5px;
+        content: "Marka";
+        color: #8D94AD;
+        outline: 0px;
+        border: 1px solid #dfe3e9;
+        font-size: 14px;
+        padding: 5px;
+        font-family: 'Roboto', sans-serif;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius:0px;
+    }
+    #həcm_min:focus{
+        color: #000;
+    }
+
+    #həcm_maks{
+        position: relative;
+        left: 50%;
+        top: -30px;
+        width: 50%;
+        height: 50px;
+        border-radius: 5px;
+        content: "Marka";
+        color: #8D94AD;
+        outline: 0px;
+        border: 1px solid #dfe3e9;
+        font-size: 14px;
+        padding: 5px;
+        font-family: 'Roboto', sans-serif;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius:0px;
+    }
+
+    #həcm_maks:focus{
+        color: #000;
     }
 }
 
@@ -724,6 +855,130 @@ body {
         margin-top: -20px;
         min-height: 200px; 
         padding-top: 20px;
+    }
+
+
+    .more_filter{
+        float: right;
+        margin-top: -20px;
+        margin-right: 20px;
+        color: #CA1016;
+    }
+
+    .more_filter:hover{
+        text-decoration: none;
+        color: #CA1016;
+    }
+
+    #color{
+        position: relative;
+        left: 0px;
+        top: 60px;
+        width: 100%;
+        height: 50px;
+        border-radius: 5px;
+        content: "Marka";
+        color: #8D94AD;
+        outline: 0px;
+        border: 1px solid #dfe3e9;
+        font-size: 15px;
+        padding: 5px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    #yanacaq{
+        position: relative;
+        left: 0px;
+        top: 70px;
+        width: 100%;
+        height: 50px;
+        border-radius: 5px;
+        content: "Marka";
+        color: #8D94AD;
+        outline: 0px;
+        border: 1px solid #dfe3e9;
+        font-size: 15px;
+        padding: 5px;
+        font-family: 'Roboto', sans-serif;
+        margin-bottom: 20px;
+    }
+
+    #ötürücü{
+        position: relative;
+        left: 0px;
+        top: 60px;
+        width: 100%;
+        height: 50px;
+        border-radius: 5px;
+        content: "Marka";
+        color: #8D94AD;
+        outline: 0px;
+        border: 1px solid #dfe3e9;
+        font-size: 15px;
+        padding: 5px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    #sürətlər_qutusu{
+        position: relative;
+        left: 0px;
+        top: 70px;
+        width: 100%;
+        height: 50px;
+        border-radius: 5px;
+        content: "Marka";
+        color: #8D94AD;
+        outline: 0px;
+        border: 1px solid #dfe3e9;
+        font-size: 15px;
+        padding: 5px;
+        font-family: 'Roboto', sans-serif;
+        margin-bottom: 20px;
+    }
+
+            
+    #həcm_min{
+        position: relative;
+        left: 0px;
+        top: 70px;
+        margin-bottom: 50px;
+        width: 50%;
+        height: 50px;
+        border-radius: 5px;
+        content: "Marka";
+        color: #8D94AD;
+        outline: 0px;
+        border: 1px solid #dfe3e9;
+        font-size: 14px;
+        padding: 5px;
+        font-family: 'Roboto', sans-serif;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius:0px;
+    }
+    #həcm_min:focus{
+        color: #000;
+    }
+
+    #həcm_maks{
+        position: relative;
+        left: 50%;
+        top: -30px;
+        width: 50%;
+        height: 50px;
+        border-radius: 5px;
+        content: "Marka";
+        color: #8D94AD;
+        outline: 0px;
+        border: 1px solid #dfe3e9;
+        font-size: 14px;
+        padding: 5px;
+        font-family: 'Roboto', sans-serif;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius:0px;
+    }
+
+    #həcm_maks:focus{
+        color: #000;
     }
 }
 
@@ -1031,6 +1286,127 @@ body {
         min-height: 200px; 
         padding-top: 20px;
     }
+
+    .more_filter{
+        position: relative;
+        left: 400px;
+        top: -20px;
+        color: #CA1016;
+    }
+
+    .more_filter:hover{
+        text-decoration: none;
+        color: #CA1016;
+    }
+    
+    #color{
+        position: relative;
+        left: -10px;
+        top: -90px;
+        width: 232px;
+        height: 50px;
+        border-radius: 5px;
+        content: "Marka";
+        color: #8D94AD;
+        outline: 0px;
+        border: 1px solid #dfe3e9;
+        font-size: 15px;
+        padding: 5px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    #yanacaq{
+        position: relative;
+        left: 0px;
+        top: -90px;
+        width: 232px;
+        height: 50px;
+        border-radius: 5px;
+        content: "Marka";
+        color: #8D94AD;
+        outline: 0px;
+        border: 1px solid #dfe3e9;
+        font-size: 15px;
+        padding: 5px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    #ötürücü{
+        position: relative;
+        left: 10px;
+        top: -90px;
+        width: 100px;
+        height: 50px;
+        border-radius: 5px;
+        content: "Marka";
+        color: #8D94AD;
+        outline: 0px;
+        border: 1px solid #dfe3e9;
+        font-size: 15px;
+        padding: 5px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    #sürətlər_qutusu{
+        position: relative;
+        left: 10px;
+        top: -90px;
+        width: 144px;
+        height: 50px;
+        border-radius: 5px;
+        content: "Marka";
+        color: #8D94AD;
+        outline: 0px;
+        border: 1px solid #dfe3e9;
+        font-size: 15px;
+        padding: 5px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+        
+    #həcm_min{
+        position: relative;
+        left: -10px;
+        top: -70px;
+        margin-bottom: 50px;
+        width: 150px;
+        height: 50px;
+        border-radius: 5px;
+        content: "Marka";
+        color: #8D94AD;
+        outline: 0px;
+        border: 1px solid #dfe3e9;
+        font-size: 14px;
+        padding: 5px;
+        font-family: 'Roboto', sans-serif;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius:0px;
+    }
+    #həcm_min:focus{
+        color: #000;
+    }
+
+    #həcm_maks{
+        position: relative;
+        left: -15px;
+        top: -70px;
+        width: 150px;
+        height: 50px;
+        border-radius: 5px;
+        content: "Marka";
+        color: #8D94AD;
+        outline: 0px;
+        border: 1px solid #dfe3e9;
+        font-size: 14px;
+        padding: 5px;
+        font-family: 'Roboto', sans-serif;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius:0px;
+    }
+
+    #həcm_maks:focus{
+        color: #000;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -1330,11 +1706,133 @@ body {
     .reset{
         color: #CA1016;
         text-decoration: none;
-        padding-left: 25px;
+        position: relative;
+        left: 470px;
+        top: -20px;
     }
 
     .reset:hover{
         color: #CA1016;
+    }
+    .more_filter{
+        position: relative;
+        left: 520px;
+        top: -20px;
+        color: #CA1016;
+    }
+
+    .more_filter:hover{
+        text-decoration: none;
+        color: #CA1016;
+    }
+
+    #color{
+        position: relative;
+        left: 23px;
+        top: -80px;
+        width: 232px;
+        height: 50px;
+        border-radius: 5px;
+        content: "Marka";
+        color: #8D94AD;
+        outline: 0px;
+        border: 1px solid #dfe3e9;
+        font-size: 15px;
+        padding: 5px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    #yanacaq{
+        position: relative;
+        left: 40px;
+        top: -80px;
+        width: 240px;
+        height: 50px;
+        border-radius: 5px;
+        content: "Marka";
+        color: #8D94AD;
+        outline: 0px;
+        border: 1px solid #dfe3e9;
+        font-size: 15px;
+        padding: 5px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    #ötürücü{
+        position: relative;
+        left: 45px;
+        top: -80px;
+        width: 160px;
+        height: 50px;
+        border-radius: 5px;
+        content: "Marka";
+        color: #8D94AD;
+        outline: 0px;
+        border: 1px solid #dfe3e9;
+        font-size: 15px;
+        padding: 5px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    #sürətlər_qutusu{
+        position: relative;
+        left: 45px;
+        top: -80px;
+        width: 160px;
+        height: 50px;
+        border-radius: 5px;
+        content: "Marka";
+        color: #8D94AD;
+        outline: 0px;
+        border: 1px solid #dfe3e9;
+        font-size: 15px;
+        padding: 5px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    
+    #həcm_min{
+        position: relative;
+        left: 24px;
+        top: -70px;
+        margin-bottom: 50px;
+        width: 137px;
+        height: 50px;
+        border-radius: 5px;
+        content: "Marka";
+        color: #8D94AD;
+        outline: 0px;
+        border: 1px solid #dfe3e9;
+        font-size: 14px;
+        padding: 5px;
+        font-family: 'Roboto', sans-serif;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius:0px;
+    }
+    #həcm_min:focus{
+        color: #000;
+    }
+
+    #həcm_maks{
+        position: relative;
+        left: 19px;
+        top: -70px;
+        width: 137px;
+        height: 50px;
+        border-radius: 5px;
+        content: "Marka";
+        color: #8D94AD;
+        outline: 0px;
+        border: 1px solid #dfe3e9;
+        font-size: 14px;
+        padding: 5px;
+        font-family: 'Roboto', sans-serif;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius:0px;
+    }
+
+    #həcm_maks:focus{
+        color: #000;
     }
 }
 
@@ -1434,7 +1932,7 @@ body {
         font-family: 'Roboto', sans-serif;
     }
 
-    #cars:focus {
+    #cars:focus{
         color: #000;
     }
 
@@ -1454,7 +1952,7 @@ body {
         font-family: 'Roboto', sans-serif;
     }
 
-    #model:focus {
+    #model:focus{
         color: #000;
     }
 
@@ -1650,4 +2148,125 @@ body {
     .reset:hover{
         color: #CA1016;
     }
+
+    .more_filter{
+        position: relative;
+        left: 685px;
+        top: -20px;
+        color: #CA1016;
+    }
+
+    .more_filter:hover{
+        text-decoration: none;
+        color: #CA1016;
+    }
+
+    #color{
+        position: relative;
+        left: 95px;
+        top: -90px;
+        width: 232px;
+        height: 50px;
+        border-radius: 5px;
+        content: "Marka";
+        color: #8D94AD;
+        outline: 0px;
+        border: 1px solid #dfe3e9;
+        font-size: 15px;
+        padding: 5px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    #yanacaq{
+        position: relative;
+        left: 100px;
+        top: -90px;
+        width: 232px;
+        height: 50px;
+        border-radius: 5px;
+        content: "Marka";
+        color: #8D94AD;
+        outline: 0px;
+        border: 1px solid #dfe3e9;
+        font-size: 15px;
+        padding: 5px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    #ötürücü{
+        position: relative;
+        left: 117px;
+        top: -90px;
+        width: 255px;
+        height: 50px;
+        border-radius: 5px;
+        content: "Marka";
+        color: #8D94AD;
+        outline: 0px;
+        border: 1px solid #dfe3e9;
+        font-size: 15px;
+        padding: 5px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    #sürətlər_qutusu{
+        position: relative;
+        left: 142px;
+        top: -90px;
+        width: 232px;
+        height: 50px;
+        border-radius: 5px;
+        content: "Marka";
+        color: #8D94AD;
+        outline: 0px;
+        border: 1px solid #dfe3e9;
+        font-size: 15px;
+        padding: 5px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    #həcm_min{
+        position: relative;
+        left: -872px;
+        top: -30px;
+        margin-bottom: 50px;
+        width: 157px;
+        height: 50px;
+        border-radius: 5px;
+        content: "Marka";
+        color: #8D94AD;
+        outline: 0px;
+        border: 1px solid #dfe3e9;
+        font-size: 14px;
+        padding: 5px;
+        font-family: 'Roboto', sans-serif;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius:0px;
+    }
+    #həcm_min:focus{
+        color: #000;
+    }
+
+    #həcm_maks{
+        position: relative;
+        left: 250px;
+        top: -130px;
+        width: 157px;
+        height: 50px;
+        border-radius: 5px;
+        content: "Marka";
+        color: #8D94AD;
+        outline: 0px;
+        border: 1px solid #dfe3e9;
+        font-size: 14px;
+        padding: 5px;
+        font-family: 'Roboto', sans-serif;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius:0px;
+    }
+
+    #həcm_maks:focus{
+        color: #000;
+    }
+
 }
