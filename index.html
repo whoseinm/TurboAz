@@ -9,6 +9,8 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <!-- Font Awesome -->
+
+
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="icon" href="assets/imgs/turboAzFavIcon.png">
     <title>Turbo.az</title>
@@ -350,7 +352,7 @@
                                     <input type="text" inputmode="numeric" placeholder="maks." id="inp2_year">
                                 </div>
 
-                                <div id="hided">
+                                <div id="hided" style="display: none;">
                                     <select name="color" id="color">
                                         <option value="select" disabled selected hidden>Rəng</option>
                                         <option value="reset">Sıfırla</option>
@@ -431,7 +433,59 @@
                                         <option value="1400">1400</option>
                                         <option value="1500">1500</option>
                                     </select>
-    
+
+                                    <div id="horse_power">
+                                        <input type="text" inputmode="numeric" placeholder="Güc (a. g.), min." id="inp_horse">
+                                        <input type="text" inputmode="numeric" placeholder="maks." id="inp_horse_maks">
+                                    </div>
+
+                                    <div id="Yürüş">
+                                        <input type="text" inputmode="numeric" placeholder="Yürüş (km), min." id="yürüş_inp">
+                                        <input type="text" inputmode="numeric" placeholder="maks." id="yürüş_inp_maks">
+                                    </div>
+                                    
+                                    <div class="avtosalonlar">
+                                        <input class="avtosalonlar__input" checked type="radio" value="options1" name="myRadios" id="myRadios1">
+                                        <label class="avtosalonlar__label" for="myRadios1" style="font-weight: 400;">Hamısı</label>
+                                        <input class="avtosalonlar__input" type="radio" value="options2" name="myRadios" id="myRadios2">
+                                        <label class="avtosalonlar__label" for="myRadios2" style="font-weight: 400;">Avtosalonlar</label>
+                                        <input class="avtosalonlar__input" type="radio" value="options3" name="myRadios" id="myRadios3">
+                                        <label class="avtosalonlar__label" for="myRadios3" style="font-weight: 400;">Şəxsi</label>
+                                    </div>
+
+                                    <select name="sahib_sayi" id="sahib_sayi">
+                                        <option value="select" disabled selected hidden>Sahiblərinin sayı</option>
+                                        <option value="reset">Sıfırla</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4+">4 və daha artıq</option>
+                                    </select>
+
+                                    <select name="yer_sayi" id="yer_sayi">
+                                        <option value="select" disabled selected hidden>Yerlərin sayı</option>
+                                        <option value="reset">Sıfırla</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4+">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8+">8+</option>
+                                    </select>
+
+                                    <select name="bazar" id="bazar">
+                                        <option value="select" disabled selected hidden>Hansı bazar üçün yığılıb</option>
+                                        <option value="reset">Sıfırla</option>
+                                        <option value="Amerika">Amerika</option>
+                                        <option value="Avropa">Avropa</option>
+                                        <option value="Digər">Digər</option>
+                                        <option value="Dubay">Dubay</option>
+                                        <option value="Koreya">Koreya</option>
+                                    </select>
+
+
                                 </div>
                                 
                                 <div id="elan_sayi">
@@ -442,7 +496,7 @@
 
                                 <button id="elan_btn">Elanları göstər</button>
 
-                                <a href="" class="more_filter">Daha çox filtr <i class="fa-solid fa-angle-down" style="font-size: 15px;"></i></a>
+                                <a href="#" class="more_filter" >Daha çox filtr <i class="fa-solid fa-angle-down" style="font-size: 15px;"></i></a>
                             </div>
                         </div>
 
@@ -461,3 +515,7 @@
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"></script>
+
+    <!-- JS -->
+    <script src="assets/js/more_filter.js"></script>    
+    <!-- JS -->
