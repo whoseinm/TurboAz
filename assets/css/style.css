@@ -1,6 +1,7 @@
 body {
     margin: 0px auto;
     padding: 0px;
+    overflow-x: hidden;
 }
 
 .ad_place {
@@ -198,10 +199,10 @@ body {
         background: #85C01F;
     }
 
-    .filters_cont{
-        background: #EBEDF3; 
+    .filters_cont {
+        background: #EBEDF3;
         margin-top: -20px;
-        min-height: 200px; 
+        min-height: 200px;
         padding-top: 20px;
     }
 
@@ -297,7 +298,7 @@ body {
         font-family: 'Roboto', sans-serif;
     }
 
-    #inp1{
+    #inp1 {
         position: relative;
         left: 0px;
         top: 20px;
@@ -312,8 +313,8 @@ body {
         padding: 5px;
         font-family: 'Roboto', sans-serif;
     }
-    
-    #inp2{
+
+    #inp2 {
         position: relative;
         left: 0px;
         top: 20px;
@@ -328,7 +329,8 @@ body {
         padding: 5px;
         font-family: 'Roboto', sans-serif;
     }
-    #currency{
+
+    #currency {
         position: relative;
         top: 30px;
         left: 0px;
@@ -343,7 +345,7 @@ body {
         font-family: 'Roboto', sans-serif;
     }
 
-    #bans{
+    #bans {
         position: relative;
         left: 0px;
         top: 40px;
@@ -359,7 +361,7 @@ body {
         font-family: 'Roboto', sans-serif;
     }
 
-    #inp1_year{
+    #inp1_year {
         position: relative;
         left: 0px;
         top: 50px;
@@ -374,8 +376,8 @@ body {
         padding: 5px;
         font-family: 'Roboto', sans-serif;
     }
-    
-    #inp2_year{
+
+    #inp2_year {
         position: relative;
         left: 0px;
         top: 50px;
@@ -391,18 +393,18 @@ body {
         font-family: 'Roboto', sans-serif;
     }
 
-    .no-border{
+    .no-border {
         border: 0px solid transparent;
     }
 
-    
-    #elan_sayi{
+
+    #elan_sayi {
         margin-top: 70px;
         margin-bottom: 10px;
         padding-left: 5px;
     }
 
-    #elan_btn{
+    #elan_btn {
         float: right;
         margin-right: 0px;
         margin-top: -30px;
@@ -414,33 +416,33 @@ body {
         transition: 0.2s;
     }
 
-    #elan_btn:hover{
+    #elan_btn:hover {
         background: #B80D13;
     }
 
-    .reset{
+    .reset {
         color: #CA1016;
         text-decoration: none;
         padding-left: 5px;
     }
 
-    .reset:hover{
+    .reset:hover {
         color: #CA1016;
     }
 
-    .more_filter{
+    .more_filter {
         float: right;
         margin-top: -20px;
         margin-right: 20px;
         color: #CA1016;
     }
 
-    .more_filter:hover{
+    .more_filter:hover {
         text-decoration: none;
         color: #CA1016;
     }
 
-    #color{
+    #color {
         position: relative;
         left: 0px;
         top: 60px;
@@ -456,7 +458,7 @@ body {
         font-family: 'Roboto', sans-serif;
     }
 
-    #yanacaq{
+    #yanacaq {
         position: relative;
         left: 0px;
         top: 70px;
@@ -473,7 +475,7 @@ body {
         margin-bottom: 20px;
     }
 
-    #ötürücü{
+    #ötürücü {
         position: relative;
         left: 0px;
         top: 60px;
@@ -489,7 +491,7 @@ body {
         font-family: 'Roboto', sans-serif;
     }
 
-    #sürətlər_qutusu{
+    #sürətlər_qutusu {
         position: relative;
         left: 0px;
         top: 70px;
@@ -506,9 +508,9 @@ body {
         margin-bottom: 20px;
     }
 
-    
-            
-    #həcm_min{
+
+
+    #həcm_min {
         position: relative;
         left: 0px;
         top: 70px;
@@ -524,13 +526,14 @@ body {
         padding: 5px;
         font-family: 'Roboto', sans-serif;
         border-top-right-radius: 0px;
-        border-bottom-right-radius:0px;
+        border-bottom-right-radius: 0px;
     }
-    #həcm_min:focus{
+
+    #həcm_min:focus {
         color: #000;
     }
 
-    #həcm_maks{
+    #həcm_maks {
         position: relative;
         left: 50%;
         top: -30px;
@@ -545,14 +548,14 @@ body {
         padding: 5px;
         font-family: 'Roboto', sans-serif;
         border-top-left-radius: 0px;
-        border-bottom-left-radius:0px;
+        border-bottom-left-radius: 0px;
     }
 
-    #həcm_maks:focus{
+    #həcm_maks:focus {
         color: #000;
     }
 
-    #inp_horse{
+    #inp_horse {
         position: relative;
         left: 0px;
         top: 0px;
@@ -567,10 +570,10 @@ body {
         padding: 5px;
         font-family: 'Roboto', sans-serif;
         border-top-right-radius: 0px;
-        border-bottom-right-radius:0px;
+        border-bottom-right-radius: 0px;
     }
-    
-    #inp_horse_maks{
+
+    #inp_horse_maks {
         position: relative;
         left: 50%;
         top: -50px;
@@ -585,11 +588,11 @@ body {
         padding: 5px;
         font-family: 'Roboto', sans-serif;
         border-top-left-radius: 0px;
-        border-bottom-left-radius:0px;
+        border-bottom-left-radius: 0px;
     }
 
-    
-    #yürüş_inp{
+
+    #yürüş_inp {
         position: relative;
         left: 0px;
         top: 0px;
@@ -604,10 +607,10 @@ body {
         padding: 5px;
         font-family: 'Roboto', sans-serif;
         border-top-right-radius: 0px;
-        border-bottom-right-radius:0px;
+        border-bottom-right-radius: 0px;
     }
-    
-    #yürüş_inp_maks{
+
+    #yürüş_inp_maks {
         position: relative;
         left: 50%;
         top: -50px;
@@ -622,15 +625,15 @@ body {
         padding: 5px;
         font-family: 'Roboto', sans-serif;
         border-top-left-radius: 0px;
-        border-bottom-left-radius:0px;
+        border-bottom-left-radius: 0px;
     }
 
-    #Yürüş{
-        margin-top: -35px; 
+    #Yürüş {
+        margin-top: -35px;
         margin-bottom: -60px;
     }
 
-    .avtosalonlar{
+    .avtosalonlar {
         position: relative;
         top: 25px;
         left: 0px;
@@ -668,7 +671,7 @@ body {
         color: white;
     }
 
-    #sahib_sayi{
+    #sahib_sayi {
         position: relative;
         left: 0px;
         top: 25px;
@@ -684,7 +687,7 @@ body {
         font-family: 'Roboto', sans-serif;
     }
 
-    #yer_sayi{
+    #yer_sayi {
         position: relative;
         left: 50%;
         top: -25px;
@@ -700,7 +703,7 @@ body {
         font-family: 'Roboto', sans-serif;
     }
 
-    #bazar{
+    #bazar {
         position: relative;
         left: 0px;
         top: -15px;
@@ -714,6 +717,39 @@ body {
         font-size: 15px;
         padding: 5px;
         font-family: 'Roboto', sans-serif;
+    }
+
+
+    .təchizat {
+        position: relative;
+        top: -10px;
+        left: 0px;
+    }
+
+    .border {
+        border-bottom: 3px solid #DFE3E9;
+        width: 69%;
+        position: relative;
+        top: -30px;
+        left: 160px;
+    }
+
+    /* Vip Elanlar */
+
+    .vip_elanlar {
+        height: 50px;
+        background: #F1F3F7;
+        border-bottom: 1px solid #EAEBF2;
+    }
+
+    .vip_a {
+        color: #000;
+        text-decoration: none;
+        font-weight: bolder;
+        font-size: 16px;
+        position: relative;
+        top: 15px;
+        left: 5px;
     }
 }
 
@@ -882,9 +918,9 @@ body {
         font-family: 'Roboto', sans-serif;
     }
 
-    
 
-    #inp1{
+
+    #inp1 {
         position: relative;
         left: 0px;
         top: 20px;
@@ -899,8 +935,8 @@ body {
         padding: 5px;
         font-family: 'Roboto', sans-serif;
     }
-    
-    #inp2{
+
+    #inp2 {
         position: relative;
         left: 0px;
         top: 20px;
@@ -916,7 +952,7 @@ body {
         font-family: 'Roboto', sans-serif;
     }
 
-    #currency{
+    #currency {
         position: relative;
         top: 30px;
         left: 0px;
@@ -931,7 +967,7 @@ body {
         font-family: 'Roboto', sans-serif;
     }
 
-    #bans{
+    #bans {
         position: relative;
         left: 0px;
         top: 40px;
@@ -947,7 +983,7 @@ body {
         font-family: 'Roboto', sans-serif;
     }
 
-    #inp1_year{
+    #inp1_year {
         position: relative;
         left: 0px;
         top: 50px;
@@ -962,8 +998,8 @@ body {
         padding: 5px;
         font-family: 'Roboto', sans-serif;
     }
-    
-    #inp2_year{
+
+    #inp2_year {
         position: relative;
         left: 0px;
         top: 50px;
@@ -979,17 +1015,17 @@ body {
         font-family: 'Roboto', sans-serif;
     }
 
-    .no-border{
+    .no-border {
         border: 0px solid transparent;
     }
 
-    #elan_sayi{
+    #elan_sayi {
         margin-top: 70px;
         margin-bottom: 10px;
         padding-left: 5px;
     }
 
-    #elan_btn{
+    #elan_btn {
         float: right;
         margin-right: 0px;
         margin-top: -30px;
@@ -1001,40 +1037,41 @@ body {
         transition: 0.2s;
     }
 
-    #elan_btn:hover{
+    #elan_btn:hover {
         background: #B80D13;
     }
 
-    .reset{
+    .reset {
         color: #CA1016;
         text-decoration: none;
         padding-left: 5px;
     }
 
-    .reset:hover{
+    .reset:hover {
         color: #CA1016;
     }
-    .filters_cont{
-        background: #EBEDF3; 
+
+    .filters_cont {
+        background: #EBEDF3;
         margin-top: -20px;
-        min-height: 200px; 
+        min-height: 200px;
         padding-top: 20px;
     }
 
 
-    .more_filter{
+    .more_filter {
         float: right;
         margin-top: -20px;
         margin-right: 20px;
         color: #CA1016;
     }
 
-    .more_filter:hover{
+    .more_filter:hover {
         text-decoration: none;
         color: #CA1016;
     }
 
-    #color{
+    #color {
         position: relative;
         left: 0px;
         top: 60px;
@@ -1050,7 +1087,7 @@ body {
         font-family: 'Roboto', sans-serif;
     }
 
-    #yanacaq{
+    #yanacaq {
         position: relative;
         left: 0px;
         top: 70px;
@@ -1067,7 +1104,7 @@ body {
         margin-bottom: 20px;
     }
 
-    #ötürücü{
+    #ötürücü {
         position: relative;
         left: 0px;
         top: 60px;
@@ -1083,7 +1120,7 @@ body {
         font-family: 'Roboto', sans-serif;
     }
 
-    #sürətlər_qutusu{
+    #sürətlər_qutusu {
         position: relative;
         left: 0px;
         top: 70px;
@@ -1100,8 +1137,8 @@ body {
         margin-bottom: 20px;
     }
 
-            
-    #həcm_min{
+
+    #həcm_min {
         position: relative;
         left: 0px;
         top: 70px;
@@ -1117,13 +1154,14 @@ body {
         padding: 5px;
         font-family: 'Roboto', sans-serif;
         border-top-right-radius: 0px;
-        border-bottom-right-radius:0px;
+        border-bottom-right-radius: 0px;
     }
-    #həcm_min:focus{
+
+    #həcm_min:focus {
         color: #000;
     }
 
-    #həcm_maks{
+    #həcm_maks {
         position: relative;
         left: 50%;
         top: -30px;
@@ -1138,14 +1176,14 @@ body {
         padding: 5px;
         font-family: 'Roboto', sans-serif;
         border-top-left-radius: 0px;
-        border-bottom-left-radius:0px;
+        border-bottom-left-radius: 0px;
     }
 
-    #həcm_maks:focus{
+    #həcm_maks:focus {
         color: #000;
     }
 
-    #inp_horse{
+    #inp_horse {
         position: relative;
         left: 0px;
         top: -10px;
@@ -1160,10 +1198,10 @@ body {
         padding: 5px;
         font-family: 'Roboto', sans-serif;
         border-top-right-radius: 0px;
-        border-bottom-right-radius:0px;
+        border-bottom-right-radius: 0px;
     }
-    
-    #inp_horse_maks{
+
+    #inp_horse_maks {
         position: relative;
         left: 50%;
         top: -60px;
@@ -1178,10 +1216,10 @@ body {
         padding: 5px;
         font-family: 'Roboto', sans-serif;
         border-top-left-radius: 0px;
-        border-bottom-left-radius:0px;
+        border-bottom-left-radius: 0px;
     }
 
-    #yürüş_inp{
+    #yürüş_inp {
         position: relative;
         left: 0px;
         top: 0px;
@@ -1196,10 +1234,10 @@ body {
         padding: 5px;
         font-family: 'Roboto', sans-serif;
         border-top-right-radius: 0px;
-        border-bottom-right-radius:0px;
+        border-bottom-right-radius: 0px;
     }
-    
-    #yürüş_inp_maks{
+
+    #yürüş_inp_maks {
         position: relative;
         left: 50%;
         top: -50px;
@@ -1214,16 +1252,16 @@ body {
         padding: 5px;
         font-family: 'Roboto', sans-serif;
         border-top-left-radius: 0px;
-        border-bottom-left-radius:0px;
+        border-bottom-left-radius: 0px;
     }
 
-    #Yürüş{
-        margin-top: -45px; 
+    #Yürüş {
+        margin-top: -45px;
         margin-bottom: -30px;
     }
 
-        
-    .avtosalonlar{
+
+    .avtosalonlar {
         position: relative;
         top: -5px;
         left: 0px;
@@ -1261,7 +1299,7 @@ body {
         color: white;
     }
 
-    #sahib_sayi{
+    #sahib_sayi {
         position: relative;
         left: 0px;
         top: 0px;
@@ -1277,7 +1315,7 @@ body {
         font-family: 'Roboto', sans-serif;
     }
 
-    #yer_sayi{
+    #yer_sayi {
         position: relative;
         left: 50%;
         top: -50px;
@@ -1293,7 +1331,7 @@ body {
         font-family: 'Roboto', sans-serif;
     }
 
-    #bazar{
+    #bazar {
         position: relative;
         left: 0px;
         top: -35px;
@@ -1307,6 +1345,38 @@ body {
         font-size: 15px;
         padding: 5px;
         font-family: 'Roboto', sans-serif;
+    }
+
+    .təchizat {
+        position: relative;
+        top: -10px;
+        left: 0px;
+    }
+
+    .border {
+        border-bottom: 3px solid #DFE3E9;
+        width: 77%;
+        position: relative;
+        top: -30px;
+        left: 160px;
+    }
+
+    /* Vip Elanlar */
+
+    .vip_elanlar {
+        height: 50px;
+        background: #F1F3F7;
+        border-bottom: 1px solid #EAEBF2;
+    }
+
+    .vip_a {
+        color: #000;
+        text-decoration: none;
+        font-weight: bolder;
+        font-size: 16px;
+        position: relative;
+        top: 15px;
+        left: 5px;
     }
 }
 
@@ -1472,7 +1542,7 @@ body {
         font-family: 'Roboto', sans-serif;
     }
 
-    #inp1{
+    #inp1 {
         position: relative;
         left: 235px;
         top: -60px;
@@ -1487,10 +1557,10 @@ body {
         padding: 5px;
         font-family: 'Roboto', sans-serif;
         border-top-right-radius: 0px;
-        border-bottom-right-radius:0px;
+        border-bottom-right-radius: 0px;
     }
-    
-    #inp2{
+
+    #inp2 {
         position: relative;
         left: 225px;
         top: -60px;
@@ -1505,10 +1575,10 @@ body {
         padding: 5px;
         font-family: 'Roboto', sans-serif;
         border-top-left-radius: 0px;
-        border-bottom-left-radius:0px;
+        border-bottom-left-radius: 0px;
     }
 
-    #currency{
+    #currency {
         position: relative;
         top: -110px;
         left: 481px;
@@ -1523,7 +1593,7 @@ body {
         font-family: 'Roboto', sans-serif;
     }
 
-    #bans{
+    #bans {
         position: relative;
         left: -80px;
         top: -50px;
@@ -1539,8 +1609,8 @@ body {
         font-family: 'Roboto', sans-serif;
     }
 
-    
-    #inp1_year{
+
+    #inp1_year {
         position: relative;
         left: 235px;
         top: -100px;
@@ -1555,10 +1625,10 @@ body {
         padding: 5px;
         font-family: 'Roboto', sans-serif;
         border-top-right-radius: 0px;
-        border-bottom-right-radius:0px;
+        border-bottom-right-radius: 0px;
     }
-    
-    #inp2_year{
+
+    #inp2_year {
         position: relative;
         left: 225px;
         top: -100px;
@@ -1573,16 +1643,16 @@ body {
         padding: 5px;
         font-family: 'Roboto', sans-serif;
         border-top-left-radius: 0px;
-        border-bottom-left-radius:0px;
+        border-bottom-left-radius: 0px;
     }
 
-    #elan_sayi{
+    #elan_sayi {
         margin-top: -60px;
         margin-bottom: 10px;
         margin-left: -5px;
     }
 
-    #elan_btn{
+    #elan_btn {
         float: right;
         margin-right: 0px;
         margin-top: -30px;
@@ -1594,40 +1664,40 @@ body {
         transition: 0.2s;
     }
 
-    #elan_btn:hover{
+    #elan_btn:hover {
         background: #B80D13;
     }
 
-    .reset{
+    .reset {
         color: #CA1016;
         text-decoration: none;
         margin-left: -5px;
     }
 
-    .reset:hover{
+    .reset:hover {
         color: #CA1016;
     }
 
-    .filters_cont{
-        background: #EBEDF3; 
+    .filters_cont {
+        background: #EBEDF3;
         margin-top: -20px;
-        min-height: 200px; 
+        min-height: 200px;
         padding-top: 20px;
     }
 
-    .more_filter{
+    .more_filter {
         position: relative;
         left: 400px;
         top: -20px;
         color: #CA1016;
     }
 
-    .more_filter:hover{
+    .more_filter:hover {
         text-decoration: none;
         color: #CA1016;
     }
-    
-    #color{
+
+    #color {
         position: relative;
         left: -10px;
         top: -90px;
@@ -1643,7 +1713,7 @@ body {
         font-family: 'Roboto', sans-serif;
     }
 
-    #yanacaq{
+    #yanacaq {
         position: relative;
         left: 0px;
         top: -90px;
@@ -1659,7 +1729,7 @@ body {
         font-family: 'Roboto', sans-serif;
     }
 
-    #ötürücü{
+    #ötürücü {
         position: relative;
         left: 10px;
         top: -90px;
@@ -1675,7 +1745,7 @@ body {
         font-family: 'Roboto', sans-serif;
     }
 
-    #sürətlər_qutusu{
+    #sürətlər_qutusu {
         position: relative;
         left: 10px;
         top: -90px;
@@ -1691,8 +1761,8 @@ body {
         font-family: 'Roboto', sans-serif;
     }
 
-        
-    #həcm_min{
+
+    #həcm_min {
         position: relative;
         left: -10px;
         top: -70px;
@@ -1708,13 +1778,14 @@ body {
         padding: 5px;
         font-family: 'Roboto', sans-serif;
         border-top-right-radius: 0px;
-        border-bottom-right-radius:0px;
+        border-bottom-right-radius: 0px;
     }
-    #həcm_min:focus{
+
+    #həcm_min:focus {
         color: #000;
     }
 
-    #həcm_maks{
+    #həcm_maks {
         position: relative;
         left: -15px;
         top: -70px;
@@ -1729,15 +1800,15 @@ body {
         padding: 5px;
         font-family: 'Roboto', sans-serif;
         border-top-left-radius: 0px;
-        border-bottom-left-radius:0px;
+        border-bottom-left-radius: 0px;
     }
 
-    #həcm_maks:focus{
+    #həcm_maks:focus {
         color: #000;
     }
 
-    
-    #inp_horse{
+
+    #inp_horse {
         position: relative;
         left: 295px;
         top: -170px;
@@ -1752,10 +1823,10 @@ body {
         padding: 5px;
         font-family: 'Roboto', sans-serif;
         border-top-right-radius: 0px;
-        border-bottom-right-radius:0px;
+        border-bottom-right-radius: 0px;
     }
-    
-    #inp_horse_maks{
+
+    #inp_horse_maks {
         position: relative;
         left: 285px;
         top: -170px;
@@ -1770,10 +1841,10 @@ body {
         padding: 5px;
         font-family: 'Roboto', sans-serif;
         border-top-left-radius: 0px;
-        border-bottom-left-radius:0px;
+        border-bottom-left-radius: 0px;
     }
 
-    #yürüş_inp{
+    #yürüş_inp {
         position: relative;
         left: 515px;
         top: -220px;
@@ -1788,10 +1859,10 @@ body {
         padding: 5px;
         font-family: 'Roboto', sans-serif;
         border-top-right-radius: 0px;
-        border-bottom-right-radius:0px;
+        border-bottom-right-radius: 0px;
     }
-    
-    #yürüş_inp_maks{
+
+    #yürüş_inp_maks {
         position: relative;
         left: 505px;
         top: -220px;
@@ -1806,11 +1877,11 @@ body {
         padding: 5px;
         font-family: 'Roboto', sans-serif;
         border-top-left-radius: 0px;
-        border-bottom-left-radius:0px;
+        border-bottom-left-radius: 0px;
     }
 
-    
-    .avtosalonlar{
+
+    .avtosalonlar {
         position: relative;
         top: -205px;
         left: -10px;
@@ -1845,7 +1916,7 @@ body {
         color: white;
     }
 
-    #sahib_sayi{
+    #sahib_sayi {
         position: relative;
         left: 0px;
         top: -205px;
@@ -1861,7 +1932,7 @@ body {
         font-family: 'Roboto', sans-serif;
     }
 
-    #yer_sayi{
+    #yer_sayi {
         position: relative;
         left: 5px;
         top: -205px;
@@ -1877,7 +1948,7 @@ body {
         font-family: 'Roboto', sans-serif;
     }
 
-    #bazar{
+    #bazar {
         position: relative;
         left: -10px;
         top: -195px;
@@ -1891,6 +1962,39 @@ body {
         font-size: 15px;
         padding: 5px;
         font-family: 'Roboto', sans-serif;
+    }
+
+
+    .təchizat {
+        position: relative;
+        top: -180px;
+        left: -10px;
+    }
+
+    .border {
+        border-bottom: 3px solid #DFE3E9;
+        width: 77%;
+        position: relative;
+        top: -200px;
+        left: 170px;
+    }
+
+    /* Vip Elanlar */
+
+    .vip_elanlar {
+        height: 50px;
+        background: #F1F3F7;
+        border-bottom: 1px solid #EAEBF2;
+    }
+
+    .vip_a {
+        color: #000;
+        text-decoration: none;
+        font-weight: bolder;
+        font-size: 16px;
+        position: relative;
+        top: 15px;
+        left: -5px;
     }
 }
 
@@ -1967,10 +2071,10 @@ body {
         background: #85C01F;
     }
 
-    .filters_cont{
-        background: #EBEDF3; 
+    .filters_cont {
+        background: #EBEDF3;
         margin-top: -20px;
-        min-height: 200px; 
+        min-height: 200px;
         padding-top: 20px;
     }
 
@@ -1994,7 +2098,7 @@ body {
         color: #000;
     }
 
-    #model{
+    #model {
         position: relative;
         left: 40px;
         top: 0px;
@@ -2010,11 +2114,11 @@ body {
         font-family: 'Roboto', sans-serif;
     }
 
-    #model:focus{
+    #model:focus {
         color: #000;
     }
 
-    .radio{
+    .radio {
         position: relative;
         top: 0px;
         left: 50px;
@@ -2024,11 +2128,11 @@ body {
         box-shadow: 0 0 5px rgb(0 0 0 / 0.25);
     }
 
-    .radio__input{
+    .radio__input {
         display: none;
     }
 
-    .radio__label{
+    .radio__label {
         padding: 12px 43px;
         font-size: 15px;
         font-family: sans-serif;
@@ -2063,7 +2167,7 @@ body {
         font-family: 'Roboto', sans-serif;
     }
 
-    #inp1{
+    #inp1 {
         position: relative;
         left: 275px;
         top: -50px;
@@ -2078,10 +2182,10 @@ body {
         padding: 5px;
         font-family: 'Roboto', sans-serif;
         border-top-right-radius: 0px;
-        border-bottom-right-radius:0px;
+        border-bottom-right-radius: 0px;
     }
-    
-    #inp2{
+
+    #inp2 {
         position: relative;
         left: 270px;
         top: -50px;
@@ -2096,10 +2200,10 @@ body {
         padding: 5px;
         font-family: 'Roboto', sans-serif;
         border-top-left-radius: 0px;
-        border-bottom-left-radius:0px;
+        border-bottom-left-radius: 0px;
     }
 
-    #currency{
+    #currency {
         position: relative;
         top: -100px;
         left: 521px;
@@ -2114,7 +2218,7 @@ body {
         font-family: 'Roboto', sans-serif;
     }
 
-    #bans{
+    #bans {
         position: relative;
         left: -85px;
         top: -40px;
@@ -2130,7 +2234,7 @@ body {
         font-family: 'Roboto', sans-serif;
     }
 
-    #inp1_year{
+    #inp1_year {
         position: relative;
         left: 275px;
         top: -90px;
@@ -2145,10 +2249,10 @@ body {
         padding: 5px;
         font-family: 'Roboto', sans-serif;
         border-top-right-radius: 0px;
-        border-bottom-right-radius:0px;
+        border-bottom-right-radius: 0px;
     }
-    
-    #inp2_year{
+
+    #inp2_year {
         position: relative;
         left: 265px;
         top: -90px;
@@ -2163,16 +2267,16 @@ body {
         padding: 5px;
         font-family: 'Roboto', sans-serif;
         border-top-left-radius: 0px;
-        border-bottom-left-radius:0px;
+        border-bottom-left-radius: 0px;
     }
 
-    #elan_sayi{
+    #elan_sayi {
         margin-top: -60px;
         margin-bottom: 10px;
         padding-left: 25px;
     }
 
-    #elan_btn{
+    #elan_btn {
         float: right;
         margin-right: 80px;
         margin-top: -30px;
@@ -2184,11 +2288,11 @@ body {
         transition: 0.2s;
     }
 
-    #elan_btn:hover{
+    #elan_btn:hover {
         background: #B80D13;
     }
 
-    .reset{
+    .reset {
         color: #CA1016;
         text-decoration: none;
         position: relative;
@@ -2196,22 +2300,23 @@ body {
         top: -20px;
     }
 
-    .reset:hover{
+    .reset:hover {
         color: #CA1016;
     }
-    .more_filter{
+
+    .more_filter {
         position: relative;
         left: 520px;
         top: -20px;
         color: #CA1016;
     }
 
-    .more_filter:hover{
+    .more_filter:hover {
         text-decoration: none;
         color: #CA1016;
     }
 
-    #color{
+    #color {
         position: relative;
         left: 23px;
         top: -80px;
@@ -2227,7 +2332,7 @@ body {
         font-family: 'Roboto', sans-serif;
     }
 
-    #yanacaq{
+    #yanacaq {
         position: relative;
         left: 40px;
         top: -80px;
@@ -2243,7 +2348,7 @@ body {
         font-family: 'Roboto', sans-serif;
     }
 
-    #ötürücü{
+    #ötürücü {
         position: relative;
         left: 45px;
         top: -80px;
@@ -2259,7 +2364,7 @@ body {
         font-family: 'Roboto', sans-serif;
     }
 
-    #sürətlər_qutusu{
+    #sürətlər_qutusu {
         position: relative;
         left: 45px;
         top: -80px;
@@ -2275,8 +2380,8 @@ body {
         font-family: 'Roboto', sans-serif;
     }
 
-    
-    #həcm_min{
+
+    #həcm_min {
         position: relative;
         left: 24px;
         top: -70px;
@@ -2292,13 +2397,14 @@ body {
         padding: 5px;
         font-family: 'Roboto', sans-serif;
         border-top-right-radius: 0px;
-        border-bottom-right-radius:0px;
+        border-bottom-right-radius: 0px;
     }
-    #həcm_min:focus{
+
+    #həcm_min:focus {
         color: #000;
     }
 
-    #həcm_maks{
+    #həcm_maks {
         position: relative;
         left: 19px;
         top: -70px;
@@ -2313,14 +2419,14 @@ body {
         padding: 5px;
         font-family: 'Roboto', sans-serif;
         border-top-left-radius: 0px;
-        border-bottom-left-radius:0px;
+        border-bottom-left-radius: 0px;
     }
 
-    #həcm_maks:focus{
+    #həcm_maks:focus {
         color: #000;
     }
 
-    #inp_horse{
+    #inp_horse {
         position: relative;
         left: 305px;
         top: -170px;
@@ -2335,10 +2441,10 @@ body {
         padding: 5px;
         font-family: 'Roboto', sans-serif;
         border-top-right-radius: 0px;
-        border-bottom-right-radius:0px;
+        border-bottom-right-radius: 0px;
     }
-    
-    #inp_horse_maks{
+
+    #inp_horse_maks {
         position: relative;
         left: 295px;
         top: -170px;
@@ -2353,10 +2459,10 @@ body {
         padding: 5px;
         font-family: 'Roboto', sans-serif;
         border-top-left-radius: 0px;
-        border-bottom-left-radius:0px;
+        border-bottom-left-radius: 0px;
     }
 
-    #yürüş_inp{
+    #yürüş_inp {
         position: relative;
         left: 565px;
         top: -220px;
@@ -2371,10 +2477,10 @@ body {
         padding: 5px;
         font-family: 'Roboto', sans-serif;
         border-top-right-radius: 0px;
-        border-bottom-right-radius:0px;
+        border-bottom-right-radius: 0px;
     }
-    
-    #yürüş_inp_maks{
+
+    #yürüş_inp_maks {
         position: relative;
         left: 555px;
         top: -220px;
@@ -2389,10 +2495,10 @@ body {
         padding: 5px;
         font-family: 'Roboto', sans-serif;
         border-top-left-radius: 0px;
-        border-bottom-left-radius:0px;
+        border-bottom-left-radius: 0px;
     }
 
-    .avtosalonlar{
+    .avtosalonlar {
         position: relative;
         top: -205px;
         left: 25px;
@@ -2427,8 +2533,8 @@ body {
         color: white;
     }
 
-    
-    #sahib_sayi{
+
+    #sahib_sayi {
         position: relative;
         left: 35px;
         top: -205px;
@@ -2444,7 +2550,7 @@ body {
         font-family: 'Roboto', sans-serif;
     }
 
-    #yer_sayi{
+    #yer_sayi {
         position: relative;
         left: 45px;
         top: -205px;
@@ -2460,8 +2566,8 @@ body {
         font-family: 'Roboto', sans-serif;
     }
 
-    
-    #bazar{
+
+    #bazar {
         position: relative;
         left: -540px;
         top: -145px;
@@ -2475,6 +2581,38 @@ body {
         font-size: 15px;
         padding: 5px;
         font-family: 'Roboto', sans-serif;
+    }
+
+    .təchizat {
+        position: relative;
+        top: -130px;
+        left: 25px;
+    }
+
+    .border {
+        border-bottom: 3px solid #DFE3E9;
+        width: 72%;
+        position: relative;
+        top: -150px;
+        left: 170px;
+    }
+
+    /* Vip Elanlar */
+
+    .vip_elanlar {
+        height: 50px;
+        background: #F1F3F7;
+        border-bottom: 1px solid #EAEBF2;
+    }
+
+    .vip_a {
+        color: #000;
+        text-decoration: none;
+        font-weight: bolder;
+        font-size: 16px;
+        position: relative;
+        top: 15px;
+        left: 25px;
     }
 }
 
@@ -2551,10 +2689,10 @@ body {
         background: #85C01F;
     }
 
-    .filters_cont{
-        background: #EBEDF3; 
+    .filters_cont {
+        background: #EBEDF3;
         margin-top: -20px;
-        min-height: 200px; 
+        min-height: 200px;
         padding-top: 20px;
     }
 
@@ -2574,7 +2712,7 @@ body {
         font-family: 'Roboto', sans-serif;
     }
 
-    #cars:focus{
+    #cars:focus {
         color: #000;
     }
 
@@ -2594,7 +2732,7 @@ body {
         font-family: 'Roboto', sans-serif;
     }
 
-    #model:focus{
+    #model:focus {
         color: #000;
     }
 
@@ -2647,7 +2785,7 @@ body {
         font-family: 'Roboto', sans-serif;
     }
 
-    #inp1{
+    #inp1 {
         position: relative;
         left: 95px;
         top: 0px;
@@ -2662,10 +2800,10 @@ body {
         padding: 5px;
         font-family: 'Roboto', sans-serif;
         border-top-right-radius: 0px;
-        border-bottom-right-radius:0px;
+        border-bottom-right-radius: 0px;
     }
-    
-    #inp2{
+
+    #inp2 {
         position: relative;
         left: 85px;
         top: 0px;
@@ -2680,10 +2818,10 @@ body {
         padding: 5px;
         font-family: 'Roboto', sans-serif;
         border-top-left-radius: 0px;
-        border-bottom-left-radius:0px;
+        border-bottom-left-radius: 0px;
     }
 
-    #currency{
+    #currency {
         position: relative;
         top: -50px;
         left: 336px;
@@ -2700,11 +2838,11 @@ body {
 
     }
 
-    .kredit:hover{
+    .kredit:hover {
         background: black;
     }
 
-    #bans{
+    #bans {
         position: relative;
         left: 510px;
         top: -50px;
@@ -2720,7 +2858,7 @@ body {
         font-family: 'Roboto', sans-serif;
     }
 
-    #inp1_year{
+    #inp1_year {
         position: relative;
         left: 873px;
         top: -100px;
@@ -2735,10 +2873,10 @@ body {
         padding: 5px;
         font-family: 'Roboto', sans-serif;
         border-top-right-radius: 0px;
-        border-bottom-right-radius:0px;
+        border-bottom-right-radius: 0px;
     }
-    
-    #inp2_year{
+
+    #inp2_year {
         position: relative;
         left: 863px;
         top: -100px;
@@ -2753,16 +2891,16 @@ body {
         padding: 5px;
         font-family: 'Roboto', sans-serif;
         border-top-left-radius: 0px;
-        border-bottom-left-radius:0px;
+        border-bottom-left-radius: 0px;
     }
 
-    #elan_sayi{
+    #elan_sayi {
         margin-top: -60px;
         margin-bottom: 10px;
         padding-left: 95px;
     }
 
-    #elan_btn{
+    #elan_btn {
         float: right;
         margin-right: 35px;
         margin-top: -30px;
@@ -2774,11 +2912,11 @@ body {
         transition: 0.2s;
     }
 
-    #elan_btn:hover{
+    #elan_btn:hover {
         background: #B80D13;
     }
 
-    .reset{
+    .reset {
         color: #CA1016;
         text-decoration: none;
         padding-left: 95px;
@@ -2787,23 +2925,23 @@ body {
         left: 650px;
     }
 
-    .reset:hover{
+    .reset:hover {
         color: #CA1016;
     }
 
-    .more_filter{
+    .more_filter {
         position: relative;
         left: 685px;
         top: -20px;
         color: #CA1016;
     }
 
-    .more_filter:hover{
+    .more_filter:hover {
         text-decoration: none;
         color: #CA1016;
     }
 
-    #color{
+    #color {
         position: relative;
         left: 95px;
         top: -90px;
@@ -2819,7 +2957,7 @@ body {
         font-family: 'Roboto', sans-serif;
     }
 
-    #yanacaq{
+    #yanacaq {
         position: relative;
         left: 100px;
         top: -90px;
@@ -2835,7 +2973,7 @@ body {
         font-family: 'Roboto', sans-serif;
     }
 
-    #ötürücü{
+    #ötürücü {
         position: relative;
         left: 117px;
         top: -90px;
@@ -2851,7 +2989,7 @@ body {
         font-family: 'Roboto', sans-serif;
     }
 
-    #sürətlər_qutusu{
+    #sürətlər_qutusu {
         position: relative;
         left: 142px;
         top: -90px;
@@ -2867,7 +3005,7 @@ body {
         font-family: 'Roboto', sans-serif;
     }
 
-    #həcm_min{
+    #həcm_min {
         position: relative;
         left: -872px;
         top: -30px;
@@ -2883,13 +3021,14 @@ body {
         padding: 5px;
         font-family: 'Roboto', sans-serif;
         border-top-right-radius: 0px;
-        border-bottom-right-radius:0px;
+        border-bottom-right-radius: 0px;
     }
-    #həcm_min:focus{
+
+    #həcm_min:focus {
         color: #000;
     }
 
-    #həcm_maks{
+    #həcm_maks {
         position: relative;
         left: 250px;
         top: -130px;
@@ -2904,14 +3043,14 @@ body {
         padding: 5px;
         font-family: 'Roboto', sans-serif;
         border-top-left-radius: 0px;
-        border-bottom-left-radius:0px;
+        border-bottom-left-radius: 0px;
     }
 
-    #həcm_maks:focus{
+    #həcm_maks:focus {
         color: #000;
     }
 
-    #inp_horse{
+    #inp_horse {
         position: relative;
         left: 415px;
         top: -180px;
@@ -2926,10 +3065,10 @@ body {
         padding: 5px;
         font-family: 'Roboto', sans-serif;
         border-top-right-radius: 0px;
-        border-bottom-right-radius:0px;
+        border-bottom-right-radius: 0px;
     }
-    
-    #inp_horse_maks{
+
+    #inp_horse_maks {
         position: relative;
         left: 405px;
         top: -180px;
@@ -2944,10 +3083,10 @@ body {
         padding: 5px;
         font-family: 'Roboto', sans-serif;
         border-top-left-radius: 0px;
-        border-bottom-left-radius:0px;
+        border-bottom-left-radius: 0px;
     }
 
-    #yürüş_inp{
+    #yürüş_inp {
         position: relative;
         left: 755px;
         top: -230px;
@@ -2962,10 +3101,10 @@ body {
         padding: 5px;
         font-family: 'Roboto', sans-serif;
         border-top-right-radius: 0px;
-        border-bottom-right-radius:0px;
+        border-bottom-right-radius: 0px;
     }
-    
-    #yürüş_inp_maks{
+
+    #yürüş_inp_maks {
         position: relative;
         left: 745px;
         top: -230px;
@@ -2980,10 +3119,10 @@ body {
         padding: 5px;
         font-family: 'Roboto', sans-serif;
         border-top-left-radius: 0px;
-        border-bottom-left-radius:0px;
+        border-bottom-left-radius: 0px;
     }
 
-    .avtosalonlar{
+    .avtosalonlar {
         position: relative;
         top: -215px;
         left: 95px;
@@ -3018,7 +3157,7 @@ body {
         color: white;
     }
 
-    #sahib_sayi{
+    #sahib_sayi {
         position: relative;
         left: 100px;
         top: -215px;
@@ -3034,7 +3173,7 @@ body {
         font-family: 'Roboto', sans-serif;
     }
 
-    #yer_sayi{
+    #yer_sayi {
         position: relative;
         left: 100px;
         top: -215px;
@@ -3050,7 +3189,7 @@ body {
         font-family: 'Roboto', sans-serif;
     }
 
-    #bazar{
+    #bazar {
         position: relative;
         left: -610px;
         top: -150px;
@@ -3066,5 +3205,86 @@ body {
         font-family: 'Roboto', sans-serif;
     }
 
+    .təchizat {
+        position: relative;
+        top: -130px;
+        left: 95px;
+    }
 
+    .border {
+        border-bottom: 3px solid #DFE3E9;
+        width: 75%;
+        position: relative;
+        top: -150px;
+        left: 240px;
+    }
+
+    /* Vip Elanlar */
+
+    .vip_elanlar {
+        height: 50px;
+        background: #F1F3F7;
+        border-bottom: 1px solid #EAEBF2;
+    }
+
+    .vip_a {
+        color: #000;
+        text-decoration: none;
+        font-weight: bolder;
+        font-size: 16px;
+        position: relative;
+        top: 15px;
+        left: 95px;
+    }
+
+    .box {
+        width: 229px;
+        height: 266px;
+        /* background: red; */
+        position: relative;
+        border-radius: 8px;
+        left: 80px;
+        top: 20px;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        transition: 0.5s;
+        margin-right: 32px;
+    }
+
+    .box:hover {
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        cursor: pointer;
+    }
+
+    .box_img {
+        width: 229px;
+        height: 160px;
+        border-radius: 8px;
+    }
+
+    .box_img p:nth-child(2){
+        position: absolute;
+        bottom: 105px;
+        left: 8px;
+        background: #4264FD;
+        padding: 2px 4px;
+        font-size: 11px;
+        color: white;
+        border-radius: 5px;
+    }
+
+    .box_img img {
+        object-fit: cover;
+        border-radius: 8px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+
+    .box_img strong {
+        font-size: 18px;
+    }
+
+    .box .part_2_box {
+        width: 100%;
+        padding: 7px;
+    }
 }

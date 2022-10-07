@@ -14,3 +14,16 @@ function hide(){
     document.getElementsByClassName("more_filter")[0].innerHTML = "Daha çox filtr"
 };
 
+
+function myFunction(x) {
+    x.classList.toggle("fa-solid");
+}
+
+(function() {
+    'use strict';
+  
+    let style = document.createElement('style');
+    style.innerHTML = '*{ user-select: none !important; }';
+  
+    document.body.appendChild(style);
+})();
