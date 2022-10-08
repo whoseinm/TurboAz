@@ -3474,7 +3474,7 @@ body {
 
     .box {
         width: 229px;
-        height: 266px;
+        min-height: 266px;
         /* background: red; */
         position: relative;
         border-radius: 8px;
@@ -3523,5 +3523,9 @@ body {
     .box .part_2_box {
         width: 100%;
         padding-top: 3px;
+    }
+
+    .box .part_2_box strong{
+        font-size: 17px;
     }
 }
