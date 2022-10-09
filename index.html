@@ -324,8 +324,8 @@
                         </div>
                         <div class="part_2_filters">
                             <div id="price">
-                                <input type="text" inputmode="numeric" placeholder="Qiymət, min." id="inp1">
-                                <input type="text" inputmode="numeric" placeholder="maks." id="inp2">
+                                <input type="number" inputmode="numeric" placeholder="Qiymət, min." id="inp1">
+                                <input type="number" inputmode="numeric" placeholder="maks." id="inp2">
                             </div>
 
                             <div id="currency1">
@@ -334,6 +334,17 @@
                                     <option value="USD">USD</option>
                                     <option value="EUR">EUR</option>
                                 </select>
+
+                                <div id="checkboxes">
+                                    <div id="check1">
+                                        <input type="checkbox" id="checkbox1">
+                                        <label for="checkbox1">Kredit</label>
+                                    </div>
+                                    <div id="check2">
+                                        <input type="checkbox" id="checkbox2">
+                                        <label for="checkbox2">Barter</label>
+                                    </div>
+                                </div>
 
                                 <select name="bans" id="bans">
                                     <option value="city_select" disabled selected hidden>Ban növü</option>
@@ -353,7 +364,7 @@
                                     <input type="text" inputmode="numeric" placeholder="maks." id="inp2_year">
                                 </div>
 
-                                <div id="hided" style="display: none;">
+                                <div id="hided" class="">
                                     <select name="color" id="color">
                                         <option value="select" disabled selected hidden>Rəng</option>
                                         <option value="reset">Sıfırla</option>
@@ -496,23 +507,102 @@
                                         <option value="Koreya">Koreya</option>
                                     </select>
 
-                                    <h5 class="təchizat">Avtomobilin Təchizatı</h5>
+                                    <div id="təchizat">
+                                        <h5 class="təchizat">Avtomobilin Təchizatı</h5>
 
-                                    <div class="border"></div>
+                                        <div class="border"></div>
+
+                                        <div id="checkboxes_təchizat">
+                                            <div class="check_techizat_1">
+                                                <input type="checkbox" id="check_techizat_1">
+                                                <label for="check_techizat_1">Yüngül lehimli disklər</label>
+                                            </div>
+                                            <div class="check_techizat_2">
+                                                <input type="checkbox" id="check_techizat_2">
+                                                <label for="check_techizat_2">Abs</label>
+                                            </div>
+
+                                            <div class="check_techizat_3">
+                                                <input type="checkbox" id="check_techizat_3">
+                                                <label for="check_techizat_3">Lyuk</label>
+                                            </div>
+
+                                            <div class="check_techizat_4">
+                                                <input type="checkbox" id="check_techizat_4">
+                                                <label for="check_techizat_4">Yağış sensoru</label>
+                                            </div>
+
+                                            <div class="check_techizat_5">
+                                                <input type="checkbox" id="check_techizat_5">
+                                                <label for="check_techizat_5">Mərkəzi qapanma</label>
+                                            </div>
+
+                                            <div class="check_techizat_6">
+                                                <input type="checkbox" id="check_techizat_6">
+                                                <label for="check_techizat_6">Park radarı</label>
+                                            </div>
+
+                                            <div class="check_techizat_7">
+                                                <input type="checkbox" id="check_techizat_7">
+                                                <label for="check_techizat_7">Kondisioner</label>
+                                            </div>
+
+                                            <div class="check_techizat_8">
+                                                <input type="checkbox" id="check_techizat_8">
+                                                <label for="check_techizat_8">Oturacaqların isidilməsi</label>
+                                            </div>
+                                        </div>
+
+
+
+                                        <div id="checkboxes_təchizat" >
+                                            <div class="check_techizat_9">
+                                                <input type="checkbox" id="check_techizat_9">
+                                                <label for="check_techizat_9">Dəri salon</label>
+                                            </div>
+                                            <div class="check_techizat_10">
+                                                <input type="checkbox" id="check_techizat_10">
+                                                <label for="check_techizat_10">Ksenon lampalar</label>
+                                            </div>
+
+                                            <div class="check_techizat_11">
+                                                <input type="checkbox" id="check_techizat_11">
+                                                <label for="check_techizat_11">Arxa görüntü kamerası</label>
+                                            </div>
+
+                                            <div class="check_techizat_12">
+                                                <input type="checkbox" id="check_techizat_12">
+                                                <label for="check_techizat_12">Yan pərdələr</label>
+                                            </div>
+
+                                            <div class="check_techizat_13">
+                                                <input type="checkbox" id="check_techizat_13">
+                                                <label for="check_techizat_13">Oturacaqların ventilyasiyası</label>
+                                            </div>
+
+
+                                        </div>
+
+
+                                    </div>
+
 
                                 </div>
 
+                                <div id="buttons" style="margin-top: 50px;">
+                                    <div id="elan_sayi">
+                                        <p>Bu gün: <a style="text-decoration: none; cursor: pointer;">1485 yeni elan</a>
+                                        </p>
+                                    </div>
 
-                                <div id="elan_sayi">
-                                    <p>Bu gün: <a style="text-decoration: none; cursor: pointer;">1485 yeni elan</a></p>
+                                    <a href="" class="reset" style="text-decoration: none;">Sıfırla</a>
+
+                                    <button id="elan_btn">Elanları göstər</button>
+
+                                    <a href="#" class="more_filter" id="more_filter">Daha çox filtr <i
+                                            class="fa-solid fa-angle-down" style="font-size: 15px;"></i></a>
+
                                 </div>
-
-                                <a href="" class="reset" style="text-decoration: none;">Sıfırla</a>
-
-                                <button id="elan_btn">Elanları göstər</button>
-
-                                <a href="#" class="more_filter" id="more_filter">Daha çox filtr <i
-                                        class="fa-solid fa-angle-down" style="font-size: 15px;"></i></a>
                             </div>
                         </div>
 
@@ -1602,9 +1692,9 @@
                     <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 body_">
                         <div class="box col-xs-12 col-sm-6 col-md-4 col-lg-3">
                             <div class="box_img">
-                                <img src="assets/imgs/aksesuarlar/chev cruze ust qapagi.jpg" alt="chevrolet_equinox" width="100%"
-                                    height="100%">
-                                
+                                <img src="assets/imgs/aksesuarlar/chev cruze ust qapagi.jpg" alt="chevrolet_equinox"
+                                    width="100%" height="100%">
+
                                 <i class="fa-regular fa-heart"
                                     style="position: absolute; top:5px; right: 8px; font-size:24px; color:white;"
                                     onclick="myFunction(this)" id="heart"></i>
@@ -1621,8 +1711,9 @@
 
                         <div class="box col-xs-12 col-sm-6 col-md-4 col-lg-3">
                             <div class="box_img">
-                                <img src="assets/imgs/aksesuarlar/renault şüşə.jpg" alt="chevrolet_equinox" width="100%" height="100%">
-                                
+                                <img src="assets/imgs/aksesuarlar/renault şüşə.jpg" alt="chevrolet_equinox" width="100%"
+                                    height="100%">
+
                                 <i class="fa-regular fa-heart"
                                     style="position: absolute; top:5px; right: 8px; font-size:24px; color:white;"
                                     onclick="myFunction(this)" id="heart"></i>
@@ -1632,8 +1723,8 @@
                                 <strong>80 AZN</strong>
                                 <br>
                                 <p style="font-size: 16px;">"RENAULT" avtomobil şüşələri<br> <br> <span
-                                    style="color: #8D94AD; font-size: 13px;">Bakı, 23.09.2022 11</span></p>
-                                
+                                        style="color: #8D94AD; font-size: 13px;">Bakı, 23.09.2022 11</span></p>
+
                             </div>
 
                         </div>
@@ -1642,7 +1733,7 @@
                             <div class="box_img">
                                 <img src="assets/imgs/aksesuarlar/tekerler.jpg" alt="chevrolet_equinox" width="100%"
                                     height="100%">
-                                
+
                                 <i class="fa-regular fa-heart"
                                     style="position: absolute; top:5px; right: 8px; font-size:24px; color:white;"
                                     onclick="myFunction(this)" id="heart"></i>
@@ -1659,8 +1750,9 @@
 
                         <div class="box col-xs-12 col-sm-6 col-md-4 col-lg-3">
                             <div class="box_img">
-                                <img src="assets/imgs/aksesuarlar/mercedes suse.jpg" alt="chevrolet_equinox" width="100%" height="100%">
-                                
+                                <img src="assets/imgs/aksesuarlar/mercedes suse.jpg" alt="chevrolet_equinox"
+                                    width="100%" height="100%">
+
                                 <i class="fa-regular fa-heart"
                                     style="position: absolute; top:5px; right: 8px; font-size:24px; color:white;"
                                     onclick="myFunction(this)" id="heart"></i>
@@ -1684,12 +1776,12 @@
 
 
 
-                    </div>
-
-
-
-                </div>
             </div>
+
+
+
+        </div>
+        </div>
         </div>
     </section>
 
@@ -1712,7 +1804,7 @@
                             <div class="box_img">
                                 <img src="assets/imgs/telefonlar/Apple airpods.jpg" alt="chevrolet_equinox" width="100%"
                                     height="100%">
-                                
+
                                 <i class="fa-regular fa-heart"
                                     style="position: absolute; top:5px; right: 8px; font-size:24px; color:white;"
                                     onclick="myFunction(this)" id="heart"></i>
@@ -1729,8 +1821,9 @@
 
                         <div class="box col-xs-12 col-sm-6 col-md-4 col-lg-3">
                             <div class="box_img">
-                                <img src="assets/imgs/telefonlar/redmi 9a.jpg" alt="chevrolet_equinox" width="100%" height="100%">
-                                
+                                <img src="assets/imgs/telefonlar/redmi 9a.jpg" alt="chevrolet_equinox" width="100%"
+                                    height="100%">
+
                                 <i class="fa-regular fa-heart"
                                     style="position: absolute; top:5px; right: 8px; font-size:24px; color:white;"
                                     onclick="myFunction(this)" id="heart"></i>
@@ -1740,8 +1833,8 @@
                                 <strong>205 AZN</strong>
                                 <br>
                                 <p style="font-size: 16px;">Xiaomi Redmi 9A Sky Blue 32gb/2GB<br><span
-                                    style="color: #8D94AD; font-size: 13px;">Bakı, 23.09.2022 11</span></p>
-                                
+                                        style="color: #8D94AD; font-size: 13px;">Bakı, 23.09.2022 11</span></p>
+
                             </div>
 
                         </div>
@@ -1750,7 +1843,7 @@
                             <div class="box_img">
                                 <img src="assets/imgs/telefonlar/airpods 2nd.jpg" alt="chevrolet_equinox" width="100%"
                                     height="100%">
-                                
+
                                 <i class="fa-regular fa-heart"
                                     style="position: absolute; top:5px; right: 8px; font-size:24px; color:white;"
                                     onclick="myFunction(this)" id="heart"></i>
@@ -1767,8 +1860,9 @@
 
                         <div class="box col-xs-12 col-sm-6 col-md-4 col-lg-3">
                             <div class="box_img">
-                                <img src="assets/imgs/telefonlar/apple iphone 13.jpg" alt="chevrolet_equinox" width="100%" height="100%">
-                                
+                                <img src="assets/imgs/telefonlar/apple iphone 13.jpg" alt="chevrolet_equinox"
+                                    width="100%" height="100%">
+
                                 <i class="fa-regular fa-heart"
                                     style="position: absolute; top:5px; right: 8px; font-size:24px; color:white;"
                                     onclick="myFunction(this)" id="heart"></i>
@@ -1792,17 +1886,17 @@
 
 
 
-                    </div>
-
-
-
-                </div>
             </div>
+
+
+
+        </div>
+        </div>
         </div>
     </section>
 
     <section id="Footer">
-        
+
     </section>
 
 </body>
